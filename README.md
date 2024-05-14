@@ -51,9 +51,15 @@ Limitations of the data: any information that can be used to uniquely identify t
 Updated: Daily
 
 ## Transform
-
+- Implemented data transformation using PySpark on DataProc.
+- Transformed raw data from the ingest stage into a unified data model suitable for analysis.
+- Scheduled to run periodically to align with ingest timing.
+  
 ## Storage
-
+- Utilized BigQuery as the storage solution due to its scalability and compatibility.
+- Structured the data model logically, with separate tables for crime, crash, and traffic violation data.
+- Stored all collected data securely and made it easily queryable in BigQuery.
+  
 ## Analysis
 
 ## Management
