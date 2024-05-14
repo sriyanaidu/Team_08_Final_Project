@@ -16,12 +16,14 @@ Tanya Gupta
 N. Yasmin Bromir
 
 # Analyzing Crime, Crash Reporting, and Traffic Violations
-With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any correlations between events.
+With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any relationships between crimes, crashes, and locations.
 
 # Background
-Our project leverages datasets provided by Montgomery County’s open data website, dataMontgomery, to provide the public with access to various crime statistic databases, crash data, and traffic violation information. 
+Our project leverages datasets provided by Montgomery County’s open data website, dataMontgomery, to provide the public with access to various crime statistic databases, crash data, and traffic violation information.
+
 ## Business Problem
 The Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions. By developing a data-driven approach, the county aims to analyze patterns and trends, forecast future risks, and collaborate with stakeholders to implement targeted interventions and improve overall public safety and traffic management in the area.
+
 ## Project Description
 
 # Application Architecture 
@@ -50,16 +52,16 @@ Limitations of the data: any information that can be used to uniquely identify t
 
 Updated: Daily
 
--We implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+In Google Cloud Platform, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday at 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
 
+**Cloud Functions**
 <img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
-Cloud Functions
 
+**List of buckets created**
 <img width="930" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/9eef00d2-b524-461b-b7cf-98f290bf50ee">
-     List of buckets created
 
+**Cloud Scheduler**
 <img width="1116" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/b34b7247-380c-44e4-a370-6045917c120e">
-Cloud Scheduler
 
 ## Transform
 
@@ -68,11 +70,13 @@ Cloud Scheduler
   - Cleaned inconsistent values in certain columns by replacing "unknown" values with null and "N/A" values with empty strings.
   - Handled missing values in multiple columns by dropping rows with missing data or filling them with appropriate values.
   - Cleaned latitude and longitude columns by filtering out zero values and nulls.
+
 - **Data Transformation**:
   - Loaded each dataset into a data frame using PySpark code.
   - Applied cleaning functions to handle missing and inconsistent values across all datasets.
   - Removed unnecessary columns to focus on relevant data for analysis.
   - Converted latitude and longitude columns to float type for numerical analysis.
+
 - **Pushing Data to BigQuery**:
   - The cleaned DataFrames were written to BigQuery tables in the `montgomery_datasets` dataset.
   - The write operation for each dataset was performed using the `write` method of the DataFrame, specifying the respective BigQuery table names (`traffic_violations`, `crashes`, `crimes`) and the temporary GCS bucket for data transfer.
@@ -81,17 +85,23 @@ Cloud Scheduler
 <img width="1439" alt="big query tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
 
 ## Storage
-For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each api: crashes, crimes, and traffic violations
+For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each API: crashes, crimes, and traffic violations
 
+**Crashes**
 <img width="1106" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/67585d3a-ef3d-49fc-9848-47e617802702">
-Crashes
+
+**Crimes**
 <img width="1110" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/84313030-0a19-460f-9533-80ecb84e66b2">
-Crimes
+
+**Traffic_Violations**
 <img width="1118" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/8ee2d1bb-05bd-4593-af94-525f82ea51a0">
-Treffic_Violations
 
 
 
 ## Analysis
+
+**Business Questions**
+
+
 
 ## Management
