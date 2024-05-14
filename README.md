@@ -13,6 +13,8 @@ Aryaman Paigankar
 
 Tanya Gupta
 
+N. Yasmin Bromir
+
 # Analyzing Crime, Crash Reporting, and Traffic Violations
 With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any correlations between events.
 
