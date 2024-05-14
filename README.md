@@ -4,9 +4,13 @@ Professor: Zach Drake
 
 ## Team Members
 Sai Satya Sriya Naidu Kola
+
 Goutham Patchipulusu
+
 Sakshi Patil
+
 Aryaman Paigankar
+
 Tanya Gupta
 
 # Analyzing Crime, Crash Reporting, and Traffic Violations
