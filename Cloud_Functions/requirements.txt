@@ -1,0 +1,4 @@
+functions-framework==3.*
+pandas==2.0.3
+sodapy==2.2.0
+google-cloud-storage == 2.16.0
