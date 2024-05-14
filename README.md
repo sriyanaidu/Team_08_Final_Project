@@ -58,14 +58,14 @@ Updated: Daily
   - Handled missing values in multiple columns by dropping rows with missing data or filling them with appropriate values.
   - Cleaned latitude and longitude columns by filtering out zero values and nulls.
 - **Data Transformation**:
-  - Loaded each dataset into a data frame using PySpark.
+  - Loaded each dataset into a data frame using PySpark code.
   - Applied cleaning functions to handle missing and inconsistent values across all datasets.
   - Removed unnecessary columns to focus on relevant data for analysis.
   - Converted latitude and longitude columns to float type for numerical analysis.
 - **Pushing Data to BigQuery**:
   - The cleaned DataFrames were written to BigQuery tables in the `montgomery_datasets` dataset.
   - The write operation for each dataset was performed using the `write` method of the DataFrame, specifying the respective BigQuery table names (`traffic_violations`, `crashes`, `crimes`) and the temporary GCS bucket for data transfer.
-  - The mode was set to "overwrite" to replace any existing data in the destination tables.
+  - The mode was set to "overwrite" to replace any existing data in the destination tables. This ensures that the BigQuery tables are updated with the latest cleaned data, maintaining data consistency and accuracy for subsequent analysis.
 
 ## Storage
 
