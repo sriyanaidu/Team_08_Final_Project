@@ -87,16 +87,14 @@ In Google Cloud Platform, we implemented a data management system by creating se
 ## Storage
 For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each API: crashes, crimes, and traffic violations
 
-**Crashes**
+**Crashes Dataset**
 <img width="1106" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/67585d3a-ef3d-49fc-9848-47e617802702">
 
-**Crimes**
+**Crimes Dataset**
 <img width="1110" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/84313030-0a19-460f-9533-80ecb84e66b2">
 
-**Traffic_Violations**
+**Traffic_Violations Dataset**
 <img width="1118" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/8ee2d1bb-05bd-4593-af94-525f82ea51a0">
-
-
 
 ## Analysis
 
