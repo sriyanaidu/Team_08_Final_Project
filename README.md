@@ -19,7 +19,7 @@ N. Yasmin Bromir
 With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any correlations between events.
 
 # Background
-
+Our project leverages datasets provided by Montgomery County’s open data website, dataMontgomery, to provide the public with access to various crime statistic databases, crash data, and traffic violation information. 
 ## Business Problem
 
 ## Project Description
