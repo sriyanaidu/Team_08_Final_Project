@@ -1,5 +1,5 @@
 # Big Data Final Project
-INST 767: Big Data Analytics  
+INST 767: Big Data Infrastructure  
 Professor: Zach Drake
 
 ## Team Members
