@@ -68,7 +68,7 @@ In Google Cloud Platform, we implemented a data management system by creating se
 
 ## Transform
 
-We stored the Spark jobs code in our code storage bucket called 'pyspark bucket inst767'. Its layout looks like this: 
+We stored the Spark jobs code in our code storage bucket called `pyspark_bucket_inst767`. Its layout looks like this: 
 
 <img width="1436" alt="Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/68014c35-c8be-4185-83e0-24269677e14b">
 
