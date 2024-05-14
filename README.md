@@ -26,7 +26,7 @@ With a focus on Montgomery County in Maryland, we will be analyzing data about c
 
 # Application Architecture 
 
-## Extract
+## Ingest
 
 **Crime Data**: [link to documentation](https://dev.socrata.com/foundry/data.montgomerycountymd.gov/icn6-v9z3)
 
