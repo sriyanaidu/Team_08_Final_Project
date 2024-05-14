@@ -65,7 +65,10 @@ Updated: Daily
 - **Pushing Data to BigQuery**:
   - The cleaned DataFrames were written to BigQuery tables in the `montgomery_datasets` dataset.
   - The write operation for each dataset was performed using the `write` method of the DataFrame, specifying the respective BigQuery table names (`traffic_violations`, `crashes`, `crimes`) and the temporary GCS bucket for data transfer.
-  - The mode was set to "overwrite" to replace any existing data in the destination tables. This ensures that the BigQuery tables are updated with the latest cleaned data, maintaining data consistency and accuracy for subsequent analysis.
+  - The mode was set to "overwrite" to replace any existing data in the destination tables. This ensures that the BigQuery tables are updated with the latest cleaned data, maintaining data consistency and accuracy for subsequent analysis. Additionally, duplicate records are automatically removed during the overwrite process, preventing redundant data in the tables.
+
+<img width="1440" alt="Screenshot 2024-05-14 at 2 48 20 PM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/d6fa736e-2c26-4d98-b36a-571fe3b51d85">
+
 
 ## Storage
 -In addition to utilizing BigQuery for storage, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
