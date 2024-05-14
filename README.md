@@ -22,15 +22,11 @@ With a focus on Montgomery County in Maryland, we will be analyzing data about c
 Our project leverages datasets provided by Montgomery County’s open data website, dataMontgomery, to provide the public with access to various crime statistic databases, crash data, and traffic violation information.
 
 ## Business Problem
-The Montgomery County aims to enhance traffic safety by leveraging available data sources, including traffic violations data. Despite having access to valuable datasets such as crime data, crash reporting incidents data, and traffic violations data, the county faces challenges due to the lack of comprehensive data analysis and integration. Without proper analysis and integration, it becomes difficult to gain insights into the frequency and nature of traffic violations occurring within the county.
+The Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions.
 
-The primary objective is to develop a data-driven approach to understanding traffic violations and their patterns. This approach involves analyzing traffic violations data to identify trends, hotspots, and contributing factors. By gaining insights into the frequency and distribution of traffic violations, the county can educate itself about prevalent issues and areas of concern.
-
-Key goals include identifying high-traffic violation areas, understanding the factors contributing to violations, and forecasting future trends. Through analysis of historical data, the county can gain a deeper understanding of traffic violation patterns and anticipate future risks. This knowledge can then be used to implement targeted educational initiatives and interventions aimed at promoting traffic safety and reducing violations.
+Key goals include identifying high-traffic violation areas, understanding the crimes, crashes frequency, and understanding the factors contributing to violations. This knowledge can then be used to implement targeted educational initiatives and interventions aimed at promoting traffic safety and reducing violations.
 
 Expected outcomes include improved awareness and understanding of traffic safety issues, enhanced educational programs, and more informed decision-making by stakeholders. By educating itself about traffic violations and their underlying causes, the county can take proactive measures to address safety concerns and promote safer road behavior.
-
-In the long term, implementing a data-driven approach to traffic safety education can lead to a safer and more informed community. It can empower residents, law enforcement agencies, and policymakers with the knowledge and insights needed to create safer roadways and reduce the incidence of traffic violations.
 
 ## Project Description
 Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. See DAG below: 
