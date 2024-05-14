@@ -51,7 +51,10 @@ Limitations of the data: any information that can be used to uniquely identify t
 Updated: Daily
 
 <img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
+Cloud Functions
 
+<img width="930" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/9eef00d2-b524-461b-b7cf-98f290bf50ee">
+List of buckets created
 
 ## Transform
 
