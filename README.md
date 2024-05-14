@@ -25,6 +25,9 @@ Our project leverages datasets provided by Montgomery County’s open data websi
 The Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions. By developing a data-driven approach, the county aims to analyze patterns and trends, forecast future risks, and collaborate with stakeholders to implement targeted interventions and improve overall public safety and traffic management in the area.
 
 ## Project Description
+Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. See DAG below: 
+
+-- insert DAG flowchart here --
 
 # Application Architecture 
 
