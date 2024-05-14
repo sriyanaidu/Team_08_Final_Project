@@ -27,7 +27,7 @@ The Montgomery County can enhance public safety and reduce traffic-related incid
 ## Project Description
 Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. See DAG below: 
 
--- insert DAG flowchart here --
+![Data_Architecture](https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/5e756fb0-3f0f-4d43-87bd-695d67992985)
 
 # Application Architecture 
 
