@@ -32,11 +32,11 @@ With a focus on Montgomery County in Maryland, we will be analyzing data about c
 
 This API provides daily postings from Montgomery County's open data website which provides the public with direct access to crime statistic databases. The data provided comes from "EJustice", which is a records-management system used by Montgomery County Police Department.
 
-Limitations of the data: information may not be verified due to investigations, classifications may be changed in the future.
+Limitations of the data: information may not be verified due to investigations, and classifications may be changed in the future.
 
 **Crash Reporting - Incidents Data**: [link to documentation](https://dev.socrata.com/foundry/data.montgomerycountymd.gov/bhju-22kf)
 
-This API provides general information about each collision and details of all traffic collisions occuring on county and local roadways in Montgomery County. Data incorporates information from the Automated Crash Reporting System (ACRS), as well as information from Montgomery County Police, Gaithersburg Police, Rockville Police, and the Maryland-National Capital Park Police.
+This API provides general information about each collision and details of all traffic collisions occurring on county and local roadways in Montgomery County. Data incorporates information from the Automated Crash Reporting System (ACRS), as well as information from Montgomery County Police, Gaithersburg Police, Rockville Police, and the Maryland-National Capital Park Police.
 
 Limitations of the data: information is based on preliminary reporting and may not be verified, data may change at a later date after further investigation.
 
@@ -51,15 +51,24 @@ Limitations of the data: any information that can be used to uniquely identify t
 Updated: Daily
 
 ## Transform
-- Implemented data transformation using PySpark on DataProc.
-- Transformed raw data from the ingest stage into a unified data model suitable for analysis.
-- Scheduled to run periodically to align with ingest timing.
-  
+
+- **Data Cleaning**:
+  - Removed specified columns that are not relevant to the analysis, such as computed regions, agency-related information, geolocation data, etc.
+  - Cleaned inconsistent values in certain columns by replacing "unknown" values with null and "N/A" values with empty strings.
+  - Handled missing values in multiple columns by dropping rows with missing data or filling them with appropriate values.
+  - Cleaned latitude and longitude columns by filtering out zero values and nulls.
+- **Data Transformation**:
+  - Loaded each dataset into a data frame using PySpark.
+  - Applied cleaning functions to handle missing and inconsistent values across all datasets.
+  - Removed unnecessary columns to focus on relevant data for analysis.
+  - Converted latitude and longitude columns to float type for numerical analysis.
+- **Pushing Data to BigQuery**:
+  - The cleaned DataFrames were written to BigQuery tables in the `montgomery_datasets` dataset.
+  - The write operation for each dataset was performed using the `write` method of the DataFrame, specifying the respective BigQuery table names (`traffic_violations`, `crashes`, `crimes`) and the temporary GCS bucket for data transfer.
+  - The mode was set to "overwrite" to replace any existing data in the destination tables.
+
 ## Storage
-- Utilized BigQuery as the storage solution due to its scalability and compatibility.
-- Structured the data model logically, with separate tables for crime, crash, and traffic violation data.
-- Stored all collected data securely and made it easily queryable in BigQuery.
-  
+
 ## Analysis
 
 ## Management
