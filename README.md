@@ -68,6 +68,9 @@ In Google Cloud Platform, we implemented a data management system by creating se
 
 ## Transform
 
+<img width="1436" alt="Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/68014c35-c8be-4185-83e0-24269677e14b">
+
+
 - **Data Cleaning**:
   - Removed specified columns that are not relevant to the analysis, such as computed regions, agency-related information, geolocation data, etc.
   - Cleaned inconsistent values in certain columns by replacing "unknown" values with null and "N/A" values with empty strings.
