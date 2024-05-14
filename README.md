@@ -50,6 +50,8 @@ Limitations of the data: any information that can be used to uniquely identify t
 
 Updated: Daily
 
+-We implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+
 <img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
 Cloud Functions
 
@@ -79,9 +81,9 @@ Cloud Scheduler
 <img width="1439" alt="big query tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
 
 ## Storage
--In addition to utilizing BigQuery for storage, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each api: crashes, crimes, and traffic violations
 
-<img width="1116" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/b34b7247-380c-44e4-a370-6045917c120e">
+<img width="1119" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/efccad6d-2cf1-44e5-bb97-ff3d34b25940">
 
 ## Analysis
 
