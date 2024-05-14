@@ -62,4 +62,3 @@ storage_client = storage.Client()
 
 # Finally, stop the SparkSession
 spark.stop()
-
