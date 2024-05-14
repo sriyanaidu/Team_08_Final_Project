@@ -21,7 +21,7 @@ With a focus on Montgomery County in Maryland, we will be analyzing data about c
 # Background
 Our project leverages datasets provided by Montgomery County’s open data website, dataMontgomery, to provide the public with access to various crime statistic databases, crash data, and traffic violation information. 
 ## Business Problem
-
+The Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions. By developing a data-driven approach, the county aims to analyze patterns and trends, forecast future risks, and collaborate with stakeholders to implement targeted interventions and improve overall public safety and traffic management in the area.
 ## Project Description
 
 # Application Architecture 
@@ -68,7 +68,7 @@ Updated: Daily
   - The mode was set to "overwrite" to replace any existing data in the destination tables. This ensures that the BigQuery tables are updated with the latest cleaned data, maintaining data consistency and accuracy for subsequent analysis.
 
 ## Storage
-
+-In addition to utilizing BigQuery for storage, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
 ## Analysis
 
 ## Management
