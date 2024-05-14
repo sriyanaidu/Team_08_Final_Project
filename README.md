@@ -50,6 +50,9 @@ Limitations of the data: any information that can be used to uniquely identify t
 
 Updated: Daily
 
+<img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
+
+
 ## Transform
 
 - **Data Cleaning**:
@@ -70,6 +73,9 @@ Updated: Daily
 
 ## Storage
 -In addition to utilizing BigQuery for storage, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+
+<img width="1116" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/b34b7247-380c-44e4-a370-6045917c120e">
+
 ## Analysis
 
 ## Management
