@@ -111,7 +111,3 @@ For our storage solution, we opted to utilize BigQuery for its capabilities and 
 ## Analysis
 
 **Business Questions**
-
-
-
-## Management
