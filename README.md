@@ -80,12 +80,12 @@ Updated: Daily
 ### Cloud Functions
 <img width="1416" alt="Cloud Functions" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
 
-The python based cloud functions have been developed to facilitate the execution of APIs for data collection via the Google Cloud Platform. These codes utilize the login credentials and the API token to access the API and collect the data. Following data collection, the cloud fucntions transfers the gathered data into the corresponding storage buckets before further process takes place.
+Within Google Cloud Platform, we used the Python-based Cloud Functions to facilitate the execution of APIs for data collection. These codes utilize the login credentials and the API token to access the API and collect the data. Following data collection, the Cloud Function transfers the gathered data into the corresponding storage buckets before further processing takes place.
 
 ### Storage Buckets
 <img width="1416" alt="Storgae Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/b34cc178-5635-4f11-992e-b6e01d974701">
 
-In Google Cloud Platform, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd", "crime_bucket_api", and "inst767trafficviolationsbucket" respectively, were designed to organize and store the data collected from the corresponding APIs.
+After using Cloud Functions, we move on to the storage of the data. Within Cloud Storage we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd", "crime_bucket_api", and "inst767trafficviolationsbucket", respectively, were designed to organize and store the data collected from the corresponding APIs. Though the data is fairly structured, each API presents different data, and using Cloud Storage allowed us to properly handle such data.
 
 The layout for each bucket looks similar to this:
 
@@ -94,11 +94,11 @@ The layout for each bucket looks similar to this:
 ### Cloud Scheduler
 <img width="1416" alt="Cloud Scheduler" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/630825c5-8bca-4983-a9fe-e6be70f20a7f">
 
-The Cloud Scheduler is a cron job service is implemented to automate data updates everyday at 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+The Cloud Scheduler is a cron job service that is implemented to automate data updates everyday at 9 AM EDT, ensuring that every time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
 
 ## Transform
 
-We stored the Spark jobs code in our code storage bucket called `pyspark_bucket_inst767`. In summary, each Pyspark file is written to transform the data which we have stored in the storage buckets and then push them to the big query tables.
+We stored the Spark jobs code in our Cloud Storage bucket called `pyspark_bucket_inst767`. Each PySpark file transforms the data stored in the Cloud Storage buckets and then pushes them to the Big Query tables.
 
 Its layout looks like this: 
 
@@ -125,7 +125,11 @@ Each Pyspark file performs the following processes on our datasets:
 
 <img width="1439" alt="big query tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
 
-Additionally, workflows have been created using the Dataproc through which a temporary cluster and a job is created to process the data and push to the final big query tables. The workflows are set to run everyday with the help of cloud scheduler. Each cloud scheduler is set to trigger everyday at a particular time period (traffic data workflow : Everyday 10am EDT, crimes data workflow : Everyday at 11am EDT, crashes data workflow : Everyday 12:30pm EDT)
+Additionally, workflows have been created using the Dataproc through which a temporary cluster and a job is created to process the data and push to the final Big Query tables. The workflows are set to run everyday with the help of Cloud Scheduler. Each Cloud Scheduler is set to trigger everyday at a particular time period:
+
+- traffic data workflow : Everyday 10am EDT
+- crimes data workflow : Everyday at 11am EDT
+- crashes data workflow : Everyday 12:30pm EDT)
 
 **Workflows**
 <img width="1416" alt="Screenshot 2024-05-15 at 2 45 30 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/98a15f06-a9c0-4e64-917b-2f19f74ba1fa">
