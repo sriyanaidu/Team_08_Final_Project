@@ -37,9 +37,9 @@ The following business questions guided our SQL queries and visualizations. We f
 2. What is the connection between crimes, crashes, and weather?
    Most number of crashes occur on clear days, followed by rainy days and then cloudy days. 
 3. What types of crimes have previously occured on each street?
-4. What are the common causes of traffic crashes, and how do they vary by light conditions and intersection types?
-5. What are the most common types of crimes committed in different areas, and how are they distributed geographically?
-6. How do traffic violation trends change over time, and what might be influencing these trends?
+4. What are the common causes of traffic crashes, and how do they vary by light conditions and intersection types? Answered in the analysis
+5. What are the most common types of crimes committed in different areas, and how are they distributed geographically? Answered in the analysis
+6. How do traffic violation trends change over time, and what might be influencing these trends? Answered in the analysis
 
 ## Project Description
 Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. 
