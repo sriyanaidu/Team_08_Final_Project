@@ -144,7 +144,120 @@ Additionally, workflows have been created using the Dataproc through which a tem
 <img width="1416" alt="Screenshot 2024-05-15 at 2 50 15 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/b1ba5f58-682c-4b83-8554-277a8fd8320d">
 
 ## Storage
-For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each API: crashes, crimes, and traffic violations
+For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each API: crashes, crimes, and traffic violations.
+
+### Crimes Dataset Schema
+
+| Name                   | Type       |
+|------------------------|------------|
+| address_number         | STRING     |
+| address_street         | STRING     |
+| agency                 | STRING     |
+| beat                   | STRING     |
+| case_number            | STRING     |
+| city                   | STRING     |
+| crimename1             | STRING     |
+| crimename2             | STRING     |
+| crimename3             | STRING     |
+| date                   | TIMESTAMP  |
+| district               | STRING     |
+| incident_id            | STRING     |
+| latitude               | FLOAT      |
+| location               | STRING     |
+| longitude              | FLOAT      |
+| nibrs_code             | STRING     |
+| offence_code           | STRING     |
+| place                  | STRING     |
+| police_district_number | STRING     |
+| pra                    | STRING     |
+| sector                 | STRING     |
+| start_date             | TIMESTAMP  |
+| state                  | STRING     |
+| street_type            | STRING     |
+| victims                | INTEGER    |
+| zip_code               | STRING     |
+
+### Crashes Dataset Schema
+
+| Name                     | Type       |
+|--------------------------|------------|
+| acrs_report_type         | STRING     |
+| agency_name              | STRING     |
+| at_fault                 | BOOLEAN    |
+| collision_type           | STRING     |
+| crash_date_time          | TIMESTAMP  |
+| driver_substance_abuse   | STRING     |
+| first_harmful_event      | STRING     |
+| fixed_object_struck      | STRING     |
+| hit_run                  | BOOLEAN    |
+| lane_number              | INTEGER    |
+| latitude                 | FLOAT      |
+| light                    | STRING     |
+| local_case_number        | STRING     |
+| longitude                | FLOAT      |
+| nontraffic               | BOOLEAN    |
+| number_of_lanes          | INTEGER    |
+| report_number            | STRING     |
+| second_harmful_event     | STRING     |
+| traffic_control          | STRING     |
+| weather                  | STRING     |
+| cross_street_name        | STRING     |
+| cross_street_type        | STRING     |
+| direction                | STRING     |
+| distance                 | FLOAT      |
+| distance_unit            | STRING     |
+| intersection_area        | STRING     |
+| intersection_type        | STRING     |
+| junction                 | STRING     |
+| lane_direction           | STRING     |
+| mile_point               | FLOAT      |
+| mile_point_direction     | STRING     |
+| municipality             | STRING     |
+| road_alignment           | STRING     |
+| road_condition           | STRING     |
+| road_division            | STRING     |
+| road_grade               | STRING     |
+| road_name                | STRING     |
+| route_type               | STRING     |
+| surface_condition        | STRING     |
+
+### Traffic Violations Dataset Schema
+
+| Name                     | Type       | Mode     |
+|--------------------------|------------|----------|
+| accident                 | STRING     | NULLABLE |
+| alcohol                  | STRING     | NULLABLE |
+| arrest_type              | STRING     | NULLABLE |
+| article                  | STRING     | NULLABLE |
+| belts                    | STRING     | NULLABLE |
+| charge                   | STRING     | NULLABLE |
+| color                    | STRING     | NULLABLE |
+| commercial_license       | STRING     | NULLABLE |
+| commercial_vehicle       | STRING     | NULLABLE |
+| contributed_to_accident  | STRING     | NULLABLE |
+| date_of_stop             | TIMESTAMP  | NULLABLE |
+| description              | STRING     | NULLABLE |
+| dl_state                 | STRING     | NULLABLE |
+| driver_city              | STRING     | NULLABLE |
+| driver_state             | STRING     | NULLABLE |
+| fatal                    | STRING     | NULLABLE |
+| gender                   | STRING     | NULLABLE |
+| latitude                 | FLOAT      | NULLABLE |
+| location                 | STRING     | NULLABLE |
+| longitude                | FLOAT      | NULLABLE |
+| make                     | STRING     | NULLABLE |
+| model                    | STRING     | NULLABLE |
+| personal_injury          | STRING     | NULLABLE |
+| property_damage          | STRING     | NULLABLE |
+| race                     | STRING     | NULLABLE |
+| state                    | STRING     | NULLABLE |
+| subagency                | STRING     | NULLABLE |
+| time_of_stop             | TIME       | NULLABLE |
+| vehicle_type             | STRING     | NULLABLE |
+| violation_type           | STRING     | NULLABLE |
+| work_zone                | STRING     | NULLABLE |
+| year                     | INTEGER    | NULLABLE |
+
 
 **Crashes Dataset**
 <img width="1106" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/67585d3a-ef3d-49fc-9848-47e617802702">
