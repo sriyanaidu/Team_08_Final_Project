@@ -35,7 +35,7 @@ def clean_inconsistent_values(df, column):
 
 def clean_invalid_lat_lon(df, columns):
     for column in columns:
-        df = df.filter(df[column].isNotNull() & (df[column] != 0))
+        df = df.filter(df[column].isNotNull() & (df[column] != 0.0))
     return df
 
 # Apply cleaning functions to other columns
