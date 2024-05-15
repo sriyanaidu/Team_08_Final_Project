@@ -158,4 +158,4 @@ This dashboard presents a comprehensive analysis of traffic violations, categori
 
 <img width="961" alt="Screenshot 2024-05-15 010342" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/04bdd7f8-fc12-494b-9cf2-5af9e00cb926">
 
-[View the Looker Studio visualization report.](https://lookerstudio.google.com/s/u9kmggQ74dA)
+Link to the looker studio visualization report- https://lookerstudio.google.com/s/tY_R4xYcsF8
