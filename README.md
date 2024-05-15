@@ -22,13 +22,14 @@ With a focus on Montgomery County in Maryland, we will be analyzing data about c
 Our project is centered around leveraging datasets provided by Montgomery County’s open data website, [data.Montgomery](https://data.montgomerycountymd.gov/). This platform offers access to various datasets, including crime statistics databases, crash data, and information on traffic violations. By utilizing these datasets, we aim to provide the public with valuable insights into crime trends, traffic patterns, and safety issues within Montgomery County. Through data analysis and visualization, we seek to empower stakeholders with the information they need to make informed decisions and improve community safety initiatives.
 
 ## Business Problem
-The Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions.
+Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions.
 
-Key goals include identifying high-traffic violation areas, understanding the crimes, crashes frequency, and understanding the factors contributing to violations. This knowledge can then be used to implement targeted educational initiatives and interventions aimed at promoting traffic safety and reducing violations.
+Key goals for our analysis and visualizations include identifying high-traffic violation areas, understanding historical crimes, mapping the frequency of crashes, and understanding the factors contributing to violations. This knowledge can then be used to implement targeted interventions aimed at promoting traffic safety and reducing violations.
 
 Expected outcomes include improved awareness and understanding of traffic safety issues, enhanced educational programs, and more informed decision-making by stakeholders. By educating itself about traffic violations and their underlying causes, the county can take proactive measures to address safety concerns and promote safer road behavior.
 
 **Business Questions**
+
 The following business questions guided our SQL queries and visualizations. We focused on questions that would have some real-world applications by improving the presence of police, showcasing correlations between events, and breaking down previous crime to predict future crime.
 
 1. Are there correlations between crimes, crashes, and traffic violations in the places they occur? If so, what is the strength of the correlation?
