@@ -3,17 +3,17 @@ INST 767: Big Data Infrastructure
 Professor: Zach Drake
 
 ## Team Members
-Aryaman Paigankar
+Aryaman Paigankar 
 
-Goutham Patchipulusu
+Goutham Patchipulusu - gouthamp@umd.edu
 
-Sai Satya Sriya Naidu Kola
+Sai Satya Sriya Naidu Kola - skola@umd.edu 
 
-Sakshi Patil
+Sakshi Patil - spatil1@umd.edu
 
-Tanya Gupta
+Tanya Gupta - tgupta21@umd.edu
 
-N. Yasmin Bromir
+N. Yasmin Bromir - ybromir@umd.edu 
 
 # Analyzing Crime, Crash Reporting, and Traffic Violations
 With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any relationships between crimes, crashes, and locations.
