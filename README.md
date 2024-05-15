@@ -63,17 +63,17 @@ Limitations of the data: any information that can be used to uniquely identify t
 
 Updated: Daily
 
-**Cloud Functions**
+### Cloud Functions
 <img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
 
-The python based cloud functions have been developed to facilitate the execution of APIs for data collection via the Google Cloud Platform. Following data collection, additionally the cloud fucntions transfers the gathered data into the corresponding storage buckets.
+The python based cloud functions have been developed to facilitate the execution of APIs for data collection via the Google Cloud Platform. These codes utilize the login credentials and the API token to access the API and collect the data. Following data collection, the cloud fucntions transfers the gathered data into the corresponding storage buckets before further process takes place.
 
-**List of buckets created**
+### List of buckets created
 <img width="930" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/9eef00d2-b524-461b-b7cf-98f290bf50ee">
 
 In Google Cloud Platform, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday at 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
 
-**Cloud Scheduler**
+### Cloud Scheduler
 <img width="1116" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/b34b7247-380c-44e4-a370-6045917c120e">
 
 The Cloud Scheduler is a cron job service which is used to run the cloud functions everyday at 9am EDT (0 9 * * *). The data is stored in their respective buckets as mentioned earlier.
