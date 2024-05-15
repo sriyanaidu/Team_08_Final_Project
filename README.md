@@ -159,7 +159,8 @@ In this project, we leveraged Looker Studio to analyze and visualize data across
 The Crimes dashboard delves into the rate and distribution of crimes over time and across categories, utilizing a heat map to visualize geographical crime hotspots and identify regions requiring heightened security measures. Detailed pie charts and bar graphs break down crime types and locations, offering stakeholders a clear view of predominant crime patterns and enabling more effective community policing and resource allocation strategies.
 
 
-<img width="960" alt="Screenshot 2024-05-15 010321" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/c1f30f43-1aef-4704-8285-10adf1cb036b">
+<img width="682" alt="Screenshot 2024-05-15 163449" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/7e8156e5-ce90-46b1-bf73-6d0c418b6037">
+
 
 **Crashes Dashboard**
 
