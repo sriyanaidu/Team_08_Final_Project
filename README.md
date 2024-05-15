@@ -168,7 +168,8 @@ The Crimes dashboard delves into the rate and distribution of crimes over time a
 
 This dashboard explores traffic crashes, with visualizations that track crash occurrences over time and analyze them by light conditions, collision types, and intersection configurations. It provides critical insights into the conditions under which most crashes occur, such as time of day or specific traffic setups, aiding in the design of safer roads and more informed urban planning. The hit-and-run analysis further highlights the urgency of addressing driver accountability and enhancing surveillance measures.
 
-![Screenshot 2024-05-15 163941](https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/b55f733e-686b-4fcb-b37c-fa150456af94)
+![Screenshot 2024-05-15 164001](https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/eb64d759-2077-4e1e-80b9-5ad30d36d411)
+
 
 
 
