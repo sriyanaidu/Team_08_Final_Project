@@ -13,20 +13,20 @@ Sakshi Patil
 
 Tanya Gupta
 
-Yasmin Bromir
+N. Yasmin Bromir
 
 # Analyzing Crime, Crash Reporting, and Traffic Violations
 With a focus on Montgomery County in Maryland, we will be analyzing data about crimes, crashes, and traffic violations to establish if there are any relationships between crimes, crashes, and locations.
 
 # Background
-Our project is centered around leveraging datasets provided by Montgomery County’s open data website, [data.Montgomery](https://data.montgomerycountymd.gov/). This platform offers access to various datasets, including crime statistics databases, crash data, and information on traffic violations. By utilizing these datasets, we aim to provide the public with valuable insights into crime trends, traffic patterns, and safety issues within Montgomery County. Through data analysis and visualization, we seek to empower stakeholders with the information they need to make informed decisions and improve community safety initiatives.
+Our project is centered around leveraging datasets provided by Montgomery County’s open data website, [data.Montgomery](https://data.montgomerycountymd.gov/). This platform offers access to various datasets, including crime statistics databases, crash data, and information on traffic violations. By utilizing these datasets, we aim to provide the public with valuable insights into crime trends, traffic patterns, and safety issues within Montgomery County. Through data analysis and visualization, we seek to empower stakeholders (local residents) with the information they need to make informed decisions and improve grassroots community safety initiatives.
 
 ## Business Problem
-Montgomery County can enhance public safety and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions.
+Montgomery County residents can enhance public safety awareness and reduce traffic-related incidents through the effective utilization of available data sources, including crime data, crash reporting incidents data, and traffic violations data. However, the current lack of comprehensive data analysis and integration presents challenges in identifying high-risk areas, understanding contributing factors, and implementing proactive interventions.
 
-Key goals for our analysis and visualizations include identifying high-traffic violation areas, understanding historical crimes, mapping the frequency of crashes, and understanding the factors contributing to violations. This knowledge can then be used to implement targeted interventions aimed at promoting traffic safety and reducing violations.
+Key goals for our analysis and visualizations include identifying high-traffic violation areas, understanding historical crimes, and mapping the frequency of crashes. Residents can then use this knowledge to implement targeted interventions aimed at promoting traffic safety and reducing violations, as well as making sure that community resources are being properly allocated.
 
-Expected outcomes include improved awareness and understanding of traffic safety issues, enhanced educational programs, and more informed decision-making by stakeholders. By educating itself about traffic violations and their underlying causes, the county can take proactive measures to address safety concerns and promote safer road behavior.
+Expected outcomes include improved awareness of local crimes, understanding of traffic safety issues, and more informed grassroots advocacy by stakeholders. By educating themselves about local traffic violations and other crime, the residents of Mongtomery County can take proactive measures to address safety concerns, promote safer road behavior, and make sure that county resources are being properly allocated.
 
 **Business Questions**
 
