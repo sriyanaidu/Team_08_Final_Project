@@ -1,1 +1,947 @@
-
+cross_street_name,crimename1,crime_count
+10TH AVE,Crime Against Property,2
+10TH AVE,Crime Against Society,1
+16TH ST,Crime Against Person,2
+16TH ST,Crime Against Property,7
+AIRCRAFT DR,Crime Against Person,11
+AIRCRAFT DR,Crime Against Property,36
+AIRCRAFT DR,Crime Against Society,6
+AIRPARK RD,Crime Against Property,2
+ALDERTON RD,Crime Against Property,1
+AMBER RIDGE CIR,Crime Against Property,2
+AMBER RIDGE DR,Crime Against Property,1
+AMHERST AVE,Crime Against Person,6
+AMHERST AVE,Crime Against Property,45
+AMHERST AVE,Crime Against Society,15
+AMITY DR,Crime Against Property,2
+ANDERSON AVE,Crime Against Property,1
+ANGUS PL,Crime Against Property,23
+ANITA CT,Crime Against Property,1
+APPLE RIDGE RD,Crime Against Person,4
+APPLE RIDGE RD,Crime Against Property,9
+APPLE RIDGE RD,Crime Against Society,2
+ARCHDALE RD,Crime Against Person,8
+ARCHDALE RD,Crime Against Property,10
+ARCHDALE RD,Crime Against Society,7
+ARCOLA AVE,Crime Against Person,6
+ARCOLA AVE,Crime Against Property,12
+ARCOLA AVE,Crime Against Society,5
+ARCTIC AVE,Crime Against Person,1
+ARCTIC AVE,Crime Against Society,1
+ARGYLE ST,Crime Against Not a Crime,3
+ARGYLE ST,Crime Against Person,2
+ARGYLE ST,Crime Against Property,10
+ARGYLE ST,Crime Against Society,1
+ARLINGTON RD,Crime Against Person,7
+ARLINGTON RD,Crime Against Property,71
+ARLINGTON RD,Crime Against Society,4
+ARLISS ST,Crime Against Person,5
+ARLISS ST,Crime Against Property,27
+ARLISS ST,Crime Against Society,6
+ASHTON RD,Crime Against Person,1
+ASHTON RD,Crime Against Property,5
+ATHERTON CT,Crime Against Not a Crime,1
+ATHERTON CT,Crime Against Society,1
+ATHERTON DR,Crime Against Property,1
+ATLANTIC AVE,Crime Against Person,3
+ATLANTIC AVE,Crime Against Property,26
+ATLANTIC AVE,Crime Against Society,27
+AUTO PARK AVE,Crime Against Property,1
+AUTO PARK AVE,Crime Against Society,1
+AUTOMOBILE BLVD,Crime Against Property,8
+AUTOMOBILE BLVD,Crime Against Society,1
+AVERY PARK DR,Crime Against Person,1
+AVERY PARK DR,Crime Against Property,1
+AVERY PARK DR,Crime Against Society,1
+AVERY RD,Crime Against Society,6
+BAILEYS LA,Crime Against Property,3
+BALTIMORE RD,Crime Against Person,2
+BALTIMORE RD,Crime Against Property,9
+BALTIMORE RD,Crime Against Society,6
+BALTIMORE ST,Crime Against Property,1
+BALTIMORE ST,Crime Against Society,1
+BARLEYCORN WAY,Crime Against Property,1
+BARTRAM ST,Crime Against Society,1
+BATSON RD,Crime Against Property,5
+BATTERY LA,Crime Against Property,1
+BAUER DR,Crime Against Person,3
+BAUER DR,Crime Against Property,13
+BAUER DR,Crime Against Society,1
+BEACON RD,Crime Against Person,2
+BEACON RD,Crime Against Property,14
+BEACON RD,Crime Against Society,2
+BEALL AVE #2,Crime Against Person,1
+BEALL AVE #2,Crime Against Society,7
+BEL PRE CT,Crime Against Property,1
+BEL PRE RD,Crime Against Person,5
+BEL PRE RD,Crime Against Property,8
+BEL PRE RD,Crime Against Society,8
+BENDER CT,Crime Against Property,4
+BETHESDA CHURCH RD,Crime Against Person,4
+BETHESDA CHURCH RD,Crime Against Property,7
+BETHESDA CHURCH RD,Crime Against Society,1
+BLACKBURN RD,Crime Against Property,1
+BLACKTHORN ST,Crime Against Property,1
+BLUEBIRD TERR,Crime Against Property,3
+BLUERIDGE AVE,Crime Against Property,10
+BLUHILL RD,Crime Against Property,1
+BONIFANT RD,Crime Against Person,2
+BONIFANT RD,Crime Against Property,3
+BONIFANT RD,Crime Against Society,2
+BONIFANT ST,Crime Against Person,10
+BONIFANT ST,Crime Against Property,27
+BONIFANT ST,Crime Against Society,11
+BOU AVE,Crime Against Property,1
+BOURNEFIELD WAY,Crime Against Person,1
+BOURNEFIELD WAY,Crime Against Property,18
+BOURNEFIELD WAY,Crime Against Society,1
+BOWIE MILL RD,Crime Against Person,1
+BOWIE MILL RD,"Crime Against Person, Property, or Society",1
+BOYD AVE,Crime Against Property,2
+BRADLEY AVE,Crime Against Property,4
+BRADLEY AVE,Crime Against Society,4
+BRADLEY LA,Crime Against Person,4
+BRADLEY LA,Crime Against Property,109
+BRADLEY LA,Crime Against Society,5
+BRADMOOR DR,Crime Against Person,2
+BRADMOOR DR,Crime Against Property,10
+BRADMOOR DR,Crime Against Society,18
+BRAXFIELD CT,Crime Against Property,5
+BRAXFIELD CT,Crime Against Society,3
+BRIGGS CHANEY RD,Crime Against Person,5
+BRIGGS CHANEY RD,Crime Against Property,18
+BRIGGS CHANEY RD,Crime Against Society,6
+BRIGHTON DR,Crime Against Property,2
+BRISBANE ST,Crime Against Property,1
+BROADBIRCH DR,Crime Against Person,1
+BROADBIRCH DR,Crime Against Property,6
+BROADBIRCH DR,Crime Against Society,2
+BROADWOOD DR,Crime Against Property,1
+BROOKE DR,Crime Against Property,2
+BROOKVIEW DR,Crime Against Property,2
+BRUNETT AVE,Crime Against Person,14
+BRUNETT AVE,Crime Against Property,17
+BRUNETT AVE,Crime Against Society,11
+BUREAU DR,Crime Against Person,6
+BUREAU DR,Crime Against Property,20
+BUREAU DR,Crime Against Society,5
+BUSHEY DR,Crime Against Person,3
+BUSHEY DR,Crime Against Property,2
+BUSHEY DR,Crime Against Society,3
+CALHOUN DR,Crime Against Property,1
+CALVERTON BLVD,Crime Against Property,1
+CALVERTON BLVD,Crime Against Society,1
+CAMERON ST,Crime Against Person,4
+CAMERON ST,Crime Against Property,53
+CAMERON ST,Crime Against Society,4
+CAPEHART DR,Crime Against Person,1
+CAPEHART DR,Crime Against Property,3
+CAPEHART DR,Crime Against Society,2
+CAPITOL VIEW AVE,Crime Against Property,2
+CARROLL AVE,Crime Against Person,6
+CARROLL AVE,Crime Against Property,13
+CARROLL AVE,Crime Against Society,29
+CASE ST,Crime Against Property,2
+CATOCTIN DR,Crime Against Property,2
+CEDAR AVE,Crime Against Person,2
+CEDAR AVE,Crime Against Property,5
+CEDAR AVE,Crime Against Society,2
+CEDAR LA,Crime Against Person,1
+CEDAR LA,Crime Against Property,6
+CEDAR LA,Crime Against Society,3
+CEDAR ST,Crime Against Person,8
+CEDAR ST,Crime Against Property,55
+CEDAR ST,Crime Against Society,4
+CELEBRATION WAY,Crime Against Person,1
+CELEBRATION WAY,Crime Against Property,2
+CENTERHILL ST,Crime Against Property,1
+CENTERWAY RD,Crime Against Person,7
+CENTERWAY RD,Crime Against Property,9
+CENTERWAY RD,Crime Against Society,5
+CENTURY BLVD,Crime Against Person,12
+CENTURY BLVD,Crime Against Property,22
+CENTURY BLVD,Crime Against Society,4
+CHAPMAN AVE,Crime Against Person,8
+CHAPMAN AVE,Crime Against Property,23
+CHAPMAN AVE,Crime Against Society,4
+CHELTENHAM DR,Crime Against Person,12
+CHELTENHAM DR,"Crime Against Person, Property, or Society",2
+CHELTENHAM DR,Crime Against Property,35
+CHELTENHAM DR,Crime Against Society,2
+CHESTER MILL RD,Crime Against Property,1
+CHESTNUT AVE,Crime Against Property,1
+CHILDS ST,Crime Against Property,1
+CHRISTOPHER AVE,Crime Against Property,1
+CHRISTOPHER AVE,Crime Against Society,3
+CHURUBUSCO LA,Crime Against Property,2
+CINNAMON DR,Crime Against Property,3
+CLARKSBURG RD,Crime Against Property,1
+CLOPPER RD,Crime Against Person,12
+CLOPPER RD,Crime Against Property,18
+CLOPPER RD,Crime Against Society,8
+CLOVERLEAF CENTER DR,Crime Against Person,1
+CLOVERLEAF CENTER DR,Crime Against Property,3
+CLOVERLEAF CENTER DR,Crime Against Society,2
+CLOVERLY ST,Crime Against Person,3
+CLOVERLY ST,Crime Against Property,11
+CLOVERLY ST,Crime Against Society,4
+CLUB HOUSE RD,Crime Against Not a Crime,1
+CLUB HOUSE RD,Crime Against Person,10
+CLUB HOUSE RD,Crime Against Property,15
+CLUB HOUSE RD,Crime Against Society,10
+CLUB LAKE RD,Crime Against Society,1
+COLESVILLE RD,Crime Against Person,107
+COLESVILLE RD,Crime Against Property,451
+COLESVILLE RD,Crime Against Society,64
+COLLEGE PKWY,Crime Against Person,7
+COLLEGE PKWY,Crime Against Property,39
+COLLEGE PKWY,Crime Against Society,4
+COLUMBIA PIKE,Crime Against Property,4
+COLUMBIA PIKE,Crime Against Society,11
+CONGRESSIONAL LA,Crime Against Person,3
+CONGRESSIONAL LA,Crime Against Property,4
+CONGRESSIONAL LA,Crime Against Society,3
+CONNECTICUT AVE,Crime Against Person,11
+CONNECTICUT AVE,Crime Against Property,41
+CONNECTICUT AVE,Crime Against Society,4
+COTTRELL TERR,Crime Against Person,1
+COTTRELL TERR,Crime Against Property,1
+COTTRELL TERR,Crime Against Society,2
+COUNTRY RIDGE DR,Crime Against Property,1
+CRABB AVE,Crime Against Property,4
+CRABBS BRANCH WAY,Crime Against Property,2
+CRABBS BRANCH WAY,Crime Against Society,1
+CRAIGLAWN RD,Crime Against Property,5
+CRAWFORD DR,Crime Against Property,1
+CRESTED IRIS DR,Crime Against Property,6
+CROSSING CREEK RD,Crime Against Society,1
+CROSSOVER,Crime Against Property,11
+CRYSTAL ROCK DR (AHEAD),Crime Against Person,2
+CRYSTAL ROCK DR (AHEAD),Crime Against Property,16
+CRYSTAL ROCK DR (AHEAD),Crime Against Society,7
+CUL DE SAC,Crime Against Property,4
+CUL DE SAC,Crime Against Society,1
+CYPRESS SPRING RD,Crime Against Property,2
+DAMASCUS RD,Crime Against Property,1
+DAVIS MILL RD,Crime Against Person,2
+DAVIS MILL RD,Crime Against Society,2
+DAWSON AVE,Crime Against Person,6
+DAWSON AVE,Crime Against Property,34
+DAWSON AVE,Crime Against Society,5
+DEAN RD,Crime Against Person,1
+DEAN RD,Crime Against Property,1
+DECATUR AVE,Crime Against Property,1
+DENNIS AVE,Crime Against Property,1
+DIAMONDBACK DR,Crime Against Person,2
+DIAMONDBACK DR,Crime Against Property,21
+DIAMONDBACK DR,Crime Against Society,3
+DIXON AVE,Crime Against Person,4
+DIXON AVE,Crime Against Property,8
+DIXON AVE,Crime Against Society,2
+DUFIEF DR,Crime Against Property,1
+E DIAMOND AVE,Crime Against Person,12
+E DIAMOND AVE,Crime Against Property,68
+E DIAMOND AVE,Crime Against Society,8
+E GUDE DR,Crime Against Person,1
+E GUDE DR,Crime Against Property,4
+E JEFFERSON ST,Crime Against Person,2
+E JEFFERSON ST,Crime Against Property,7
+E MELBOURNE AVE,Crime Against Property,1
+E MIDDLE LA,Crime Against Person,8
+E MIDDLE LA,Crime Against Property,22
+E MIDDLE LA,Crime Against Society,14
+E MONTGOMERY AVE AT COURTHOUSE SQ,Crime Against Property,9
+E MONTGOMERY AVE AT COURTHOUSE SQ,Crime Against Society,3
+E RANDOLPH RD,Crime Against Property,4
+EAST WEST HWY,Crime Against Person,7
+EAST WEST HWY,Crime Against Property,27
+EDGEMOOR LA,Crime Against Person,2
+EDGEMOOR LA,Crime Against Property,1
+EDMONSTON DR,Crime Against Property,12
+EDMONSTON DR,Crime Against Society,1
+ELDRID DR,Crime Against Property,2
+ELKIN ST,Crime Against Property,3
+ELLSWORTH DR,Crime Against Person,10
+ELLSWORTH DR,Crime Against Property,41
+ELLSWORTH DR,Crime Against Society,5
+ELM AVE,Crime Against Property,2
+ELM ST,Crime Against Person,2
+ELM ST,Crime Against Property,11
+ELM ST,Crime Against Society,1
+ELMCROFT BLVD,Crime Against Property,7
+ELTON RD,Crime Against Not a Crime,4
+ELTON RD,Crime Against Person,66
+ELTON RD,"Crime Against Person, Property, or Society",8
+ELTON RD,Crime Against Property,350
+ELTON RD,Crime Against Society,55
+ENNALLS AVE,Crime Against Society,3
+ENT TO APTS,Crime Against Property,3
+ENT TO ARMY PX SHOP,Crime Against Property,1
+ENT TO BRIGGS CHANEY OUTLETS,Crime Against Person,7
+ENT TO BRIGGS CHANEY OUTLETS,Crime Against Property,27
+ENT TO BRIGGS CHANEY OUTLETS,Crime Against Society,6
+ENT TO BUSINESS,Crime Against Person,2
+ENT TO BUSINESS,Crime Against Property,9
+ENT TO BUSINESS,Crime Against Society,3
+ENT TO BUSINESSES,Crime Against Society,1
+ENT TO CHURCH,Crime Against Property,1
+ENT TO METRO BUS GARAGE,Crime Against Person,1
+ENT TO METRO BUS GARAGE,Crime Against Property,4
+ENT TO METRO BUS GARAGE,Crime Against Society,2
+ENT TO WILLIAM H. FARQUHAR MIDDLE SCHOOL,Crime Against Person,4
+ENT TO WILLIAM H. FARQUHAR MIDDLE SCHOOL,Crime Against Property,3
+ENT TO WILLIAM H. FARQUHAR MIDDLE SCHOOL,Crime Against Society,3
+ESTELLE RD,Crime Against Property,1
+ETHAN ALLEN AVE,Crime Against Person,2
+ETHAN ALLEN AVE,Crime Against Property,11
+ETHAN ALLEN AVE,Crime Against Society,1
+EVANSTON ST,Crime Against Property,1
+EXIT FR BUSINESS,Crime Against Person,1
+EXIT FR BUSINESS,Crime Against Property,7
+EXIT FR BUSINESS,Crime Against Society,1
+FAIRDALE RD,Crime Against Property,1
+FAIRFAX RD,Crime Against Property,1
+FAIRLAND RD,Crime Against Person,1
+FAIRLAND RD,Crime Against Property,2
+FAIRLAND RD,Crime Against Society,1
+FAIRMONT AVE,Crime Against Person,1
+FAIRMONT AVE,Crime Against Property,1
+FALCONWOOD PL,Crime Against Property,3
+FALLSGROVE BLVD,Crime Against Property,2
+FALLSMEAD WAY,Crime Against Property,1
+FARTHING DR,Crime Against Property,2
+FENTON ST,Crime Against Person,20
+FENTON ST,Crime Against Property,197
+FENTON ST,Crime Against Society,36
+FENWICK LA,Crime Against Person,16
+FENWICK LA,Crime Against Property,33
+FENWICK LA,Crime Against Society,8
+FERNWOOD RD,Crime Against Property,1
+FERRARA DR,Crime Against Property,2
+FETLOCK DR,Crime Against Property,1
+FIRST AVE,Crime Against Person,2
+FIRST AVE,Crime Against Property,1
+FIRST ST,Crime Against Person,2
+FIRST ST,Crime Against Property,8
+FIRST ST,Crime Against Society,6
+FIRSTFIELD RD,Crime Against Person,42
+FIRSTFIELD RD,Crime Against Property,47
+FIRSTFIELD RD,Crime Against Society,30
+FLOWER HILL TERR,Crime Against Person,1
+FLOWER HILL TERR,Crime Against Property,5
+FLOWER HILL TERR,Crime Against Society,1
+FLOWER HILL WAY,Crime Against Society,2
+FOREMAN BLVD,Crime Against Property,2
+FOREST GLEN RD,Crime Against Person,1
+FOREST GLEN RD,Crime Against Property,4
+FOREST GLEN RD,Crime Against Society,3
+FORTUNE TERR,Crime Against Property,19
+FORTUNE TERR,Crime Against Society,3
+FOUNDERS MILL CT,Crime Against Society,1
+FOX ST,Crime Against Property,15
+FRAMINGHAM DR,Crime Against Property,3
+FRANKLIN AVE,Crime Against Property,1
+FRANKLIN ST,Crime Against Property,2
+FREDERICK RD,Crime Against Person,7
+FREDERICK RD,"Crime Against Person, Property, or Society",1
+FREDERICK RD,Crime Against Property,32
+FREDERICK RD,Crime Against Society,3
+GAIL ST,Crime Against Property,2
+GAINSBOROUGH RD,Crime Against Property,4
+GATESHEAD MANOR WAY,Crime Against Person,1
+GATESHEAD MANOR WAY,Crime Against Property,8
+GAYNOR RD,Crime Against Society,1
+GEORGIA AVE,Crime Against Person,77
+GEORGIA AVE,Crime Against Property,369
+GEORGIA AVE,Crime Against Society,56
+GERMANTOWN RD,Crime Against Person,34
+GERMANTOWN RD,Crime Against Property,93
+GERMANTOWN RD,Crime Against Society,41
+GILMOURE DR,Crime Against Property,1
+GIST AVE,Crime Against Person,1
+GIST AVE,Crime Against Property,5
+GIST AVE,Crime Against Society,2
+GLADSTONE DR,Crime Against Society,3
+GLENALLAN AVE,Crime Against Person,7
+GLENALLAN AVE,Crime Against Property,48
+GLENALLAN AVE,Crime Against Society,7
+GLENBROOK RD,Crime Against Property,3
+GLENMONT CIR #1,Crime Against Person,8
+GLENMONT CIR #1,Crime Against Property,6
+GLENMONT CIR #1,Crime Against Society,10
+GLENPARK DR,Crime Against Property,1
+GLENPARK DR,Crime Against Society,1
+GOOD HOPE RD,Crime Against Property,2
+GOOD HOPE RD,Crime Against Society,1
+GRACEFIELD RD,Crime Against Property,3
+GRACEFIELD RD,Crime Against Society,2
+GRAND PRE RD,Crime Against Person,3
+GRAND PRE RD,Crime Against Property,35
+GRAND PRE RD,Crime Against Society,3
+GRANDVIEW AVE,Crime Against Property,3
+GRANT ST,Crime Against Property,1
+GREENBROOK DR,Crime Against Property,2
+GREENBROOK DR,Crime Against Society,1
+GREENLY ST,Crime Against Property,1
+GREENTREE RD,Crime Against Property,1
+GREENTREE RD,Crime Against Society,1
+GREY CASTLE WAY,Crime Against Property,3
+GREYROCK DR,Crime Against Property,1
+GROTTO LA,Crime Against Property,1
+GROTTO LA,Crime Against Society,3
+GROVE ST,Crime Against Person,3
+GROVE ST,Crime Against Property,11
+GROVE ST,Crime Against Society,3
+GRUBB RD,Crime Against Property,1
+GUDE AVE,Crime Against Person,1
+GUDE AVE,Crime Against Property,5
+GUILFORD RUN LA,Crime Against Society,1
+GUNNERS BRANCH RD,Crime Against Person,5
+GUNNERS BRANCH RD,"Crime Against Person, Property, or Society",1
+GUNNERS BRANCH RD,Crime Against Property,25
+GUNNERS BRANCH RD,Crime Against Society,8
+HALPINE RD,Crime Against Person,5
+HALPINE RD,Crime Against Property,13
+HALPINE RD,Crime Against Society,1
+HALPINE WALK CT,Crime Against Person,1
+HARTFORD AVE,Crime Against Person,1
+HARTFORD AVE,Crime Against Property,2
+HAZELCREST DR,Crime Against Society,1
+HENDERSON AVE,Crime Against Person,1
+HENDERSON AVE,Crime Against Property,3
+HENDERSON AVE,Crime Against Society,1
+HENDERSON CORNER RD,Crime Against Person,2
+HENDERSON CORNER RD,Crime Against Property,61
+HENDERSON CORNER RD,Crime Against Society,2
+HEURICH RD,Crime Against Property,10
+HEURICH RD,Crime Against Society,1
+HIGH CORNER ST,Crime Against Person,1
+HIGH POINT DR,Crime Against Property,1
+HOLLINGSWORTH DR,Crime Against Property,1
+HOLTON LA,Crime Against Person,29
+HOLTON LA,Crime Against Property,243
+HOLTON LA,Crime Against Society,35
+HOMECREST RD,Crime Against Property,15
+HOUSTON AVE,Crime Against Property,2
+HUBBARD DR,Crime Against Property,3
+HUNGERFORD DR,Crime Against Person,5
+HUNGERFORD DR,Crime Against Property,12
+HUNGERFORD DR,Crime Against Society,7
+HUNTINGTON PKWY,Crime Against Property,2
+HUNTINGTON PKWY,Crime Against Society,1
+HYDRUS RD,Crime Against Person,1
+INDEPENDENCE ST,Crime Against Not a Crime,1
+INDEPENDENCE ST,Crime Against Person,2
+INDEPENDENCE ST,Crime Against Property,5
+INDEPENDENCE ST,Crime Against Society,2
+INTERNATIONAL DR,Crime Against Property,3
+IRON GATE RD,Crime Against Property,1
+IVY OAK DR,Crime Against Property,1
+JACKSON RD,Crime Against Person,3
+JACKSON RD,Crime Against Property,1
+JACKSON RD,Crime Against Society,1
+JAMES ST,Crime Against Property,1
+JESSUP BLAIR DR,Crime Against Person,9
+JESSUP BLAIR DR,Crime Against Property,31
+JESSUP BLAIR DR,Crime Against Society,17
+JONES BRIDGE RD,Crime Against Property,2
+JUPITER ST,Crime Against Property,2
+KEATING ST,Crime Against Property,2
+KEMP MILL RD,Crime Against Person,1
+KEMP MILL RD,Crime Against Property,5
+KEMP MILL RD,Crime Against Society,1
+KEMPER ST,Crime Against Person,1
+KENDALL CT,Crime Against Property,2
+KENTLAND AVE,Crime Against Person,5
+KENTLAND AVE,Crime Against Property,3
+KENTLAND AVE,Crime Against Society,2
+KING FARM BLVD,Crime Against Property,33
+KING FARM BLVD,Crime Against Society,2
+KINGLET PL,Crime Against Property,1
+KINGLET PL,Crime Against Society,1
+KINGS RIDING WAY,Crime Against Person,1
+KINGS RIDING WAY,Crime Against Property,1
+KINGSVIEW RD,Crime Against Person,2
+KINGSVIEW RD,Crime Against Property,8
+KINGSVIEW RD,Crime Against Society,11
+KINGTREE ST,Crime Against Property,1
+KNOWLES AVE,Crime Against Person,7
+KNOWLES AVE,Crime Against Property,34
+KNOWLES AVE,Crime Against Society,3
+LA GRANDE RD,Crime Against Person,5
+LA GRANDE RD,Crime Against Property,3
+LA GRANDE RD,Crime Against Society,7
+LAKEVIEW DR,Crime Against Property,2
+LANARK WAY,Crime Against Property,1
+LANARK WAY,Crime Against Society,1
+LARCH AVE,Crime Against Property,1
+LAUDERDALE DR,Crime Against Property,1
+LAYHILL RD,Crime Against Person,4
+LAYHILL RD,Crime Against Property,25
+LAYHILL RD,Crime Against Society,6
+LEIGHTON AVE,Crime Against Person,1
+LEIGHTON AVE,Crime Against Society,1
+LELAND ST,Crime Against Person,3
+LELAND ST,Crime Against Property,7
+LIBERTY MILL RD,Crime Against Person,1
+LIBERTY MILL RD,Crime Against Property,1
+LINTHICUM ST,Crime Against Property,4
+LITTLETON ST,Crime Against Property,4
+LIVINGSTON ST,Crime Against Property,2
+LIVINGSTON ST,Crime Against Society,1
+LLEWELLYN MANOR WAY,Crime Against Person,2
+LOCBURY CIR,Crime Against Person,7
+LOCBURY CIR,Crime Against Property,3
+LOCBURY CIR,Crime Against Society,1
+LOCBURY DR,Crime Against Property,1
+LONGDRAFT RD,Crime Against Person,1
+LONGDRAFT RD,Crime Against Property,1
+LONGDRAFT RD,Crime Against Society,32
+LONGMEAD CROSSING DR,Crime Against Property,1
+LORAIN AVE,Crime Against Person,10
+LORAIN AVE,Crime Against Property,80
+LORAIN AVE,Crime Against Society,18
+LOST KNIFE RD,Crime Against Person,14
+LOST KNIFE RD,"Crime Against Person, Property, or Society",1
+LOST KNIFE RD,Crime Against Property,25
+LOST KNIFE RD,Crime Against Society,43
+MACARTHUR BLVD,Crime Against Property,4
+MAIN ST,Crime Against Property,7
+MAIN ST,Crime Against Society,1
+MANNAKEE ST,Crime Against Property,4
+MANNAKEE ST,Crime Against Society,2
+MANOR CIR,Crime Against Property,3
+MANSFIELD RD,Crime Against Person,3
+MANSFIELD RD,Crime Against Property,2
+MAPLE AVE,Crime Against Property,1
+MARBURY RD,Crime Against Property,1
+MARGOT DR,Crime Against Person,1
+MARGOT DR,Crime Against Property,2
+MARINELLI RD,Crime Against Person,1
+MARINELLI RD,Crime Against Property,2
+MARKET ST E,Crime Against Property,1
+MARTINS LA,Crime Against Property,1
+MARTINS LA,Crime Against Society,1
+MARYLAND AVE,Crime Against Person,3
+MARYLAND AVE,Crime Against Property,6
+MASON ST,Crime Against Property,1
+MASSACHUSETTS AVE,Crime Against Property,2
+MASSANUTEN DR (PROP),Crime Against Person,1
+MASSANUTEN DR (PROP),Crime Against Property,2
+MATENY RD,Crime Against Property,4
+MAY CT,Crime Against Property,1
+MAY ST,Crime Against Society,1
+MCKNEW RD,Crime Against Person,1
+MCKNEW RD,Crime Against Property,16
+MCKNEW RD,Crime Against Society,4
+MCLANE CT,Crime Against Person,2
+MEADOW HALL DR,Crime Against Property,3
+MEDICAL PARK DR,Crime Against Person,1
+MERRIMAC DR,Crime Against Person,1
+MERRIMAC DR,Crime Against Property,5
+MERRIMAC DR,Crime Against Society,2
+MERWOOD DR,Crime Against Person,6
+MERWOOD DR,Crime Against Property,33
+MERWOOD DR,Crime Against Society,5
+MIDCOUNTY HWY,Crime Against Person,3
+MIDCOUNTY HWY,Crime Against Property,7
+MIDCOUNTY HWY,Crime Against Society,12
+MIDDLEBROOK RD,Crime Against Person,4
+MIDDLEBROOK RD,Crime Against Property,15
+MIDDLEBROOK RD,Crime Against Society,8
+MIDDLETON LA,Crime Against Property,2
+MIDDLEVALE LA,Crime Against Property,1
+MILFORD AVE,Crime Against Person,1
+MILFORD AVE,Crime Against Property,3
+MILLER AVE,Crime Against Person,1
+MILLER AVE,Crime Against Property,7
+MONROE PL,Crime Against Person,2
+MONROE PL,Crime Against Property,3
+MONROE ST,Crime Against Property,3
+MONTGOMERY AVE,Crime Against Person,5
+MONTGOMERY AVE,Crime Against Property,9
+MONTGOMERY AVE,Crime Against Society,2
+MONTGOMERY VILLAGE AVE,Crime Against Person,4
+MONTGOMERY VILLAGE AVE,Crime Against Property,7
+MONTGOMERY VILLAGE AVE,Crime Against Society,15
+MONTROSE RD,Crime Against Society,3
+MOUNTAIN LAUREL LA,Crime Against Property,2
+MT PISGAH RD,Crime Against Person,3
+MT PISGAH RD,Crime Against Property,38
+MT PISGAH RD,Crime Against Society,4
+MT PLEASANT AVE,Crime Against Person,5
+MT PLEASANT AVE,Crime Against Property,8
+MT PLEASANT AVE,Crime Against Society,6
+MUNCASTER MILL RD,Crime Against Person,4
+MUNCASTER MILL RD,Crime Against Property,16
+MUNCASTER MILL RD,Crime Against Society,1
+MUNCASTER RD,Crime Against Person,1
+MUNCASTER RD,Crime Against Property,13
+MUNCASTER RD,Crime Against Society,1
+MUSGROVE RD,Crime Against Property,3
+MUSGROVE RD,Crime Against Society,1
+N ADAMS ST,Crime Against Person,14
+N ADAMS ST,Crime Against Property,14
+N ADAMS ST,Crime Against Society,4
+N STONESTREET AVE,Crime Against Person,1
+N STONESTREET AVE,Crime Against Property,7
+N WASHINGTON ST,Crime Against Person,5
+N WASHINGTON ST,Crime Against Property,15
+N WASHINGTON ST,Crime Against Society,4
+N&S MEADOW FENCE RD,Crime Against Property,2
+NATIONAL DR,Crime Against Property,5
+NATIONAL DR,Crime Against Society,2
+NEBEL ST,Crime Against Person,8
+NEBEL ST,Crime Against Property,2
+NEW HAMPSHIRE AVE,Crime Against Person,13
+NEW HAMPSHIRE AVE,Crime Against Property,92
+NEW HAMPSHIRE AVE,Crime Against Society,12
+NEWPORT MILL RD,Crime Against Not a Crime,2
+NEWPORT MILL RD,Crime Against Person,6
+NEWPORT MILL RD,Crime Against Property,8
+NICHOLSON LA,Crime Against Person,6
+NICHOLSON LA,Crime Against Property,54
+NICHOLSON LA,Crime Against Society,2
+NO NAME,Crime Against Person,4
+NO NAME,Crime Against Property,1
+NO NAME,Crime Against Society,8
+NORBECK RD,Crime Against Person,5
+NORBECK RD,Crime Against Property,30
+NORBECK RD,Crime Against Society,2
+NORTH HIGH ST,Crime Against Person,1
+NORTH HIGH ST,Crime Against Property,5
+NORWOOD RD,Crime Against Property,3
+NORWOOD RD,Crime Against Society,3
+NOTLEY RD,Crime Against Property,2
+NOYES DR,Crime Against Society,2
+OAKVIEW DR,Crime Against Property,6
+OBSERVATION DR,Crime Against Person,5
+OBSERVATION DR,Crime Against Property,9
+OBSERVATION DR,Crime Against Society,27
+ODENDHAL AVE,Crime Against Person,10
+ODENDHAL AVE,Crime Against Property,22
+ODENDHAL AVE,Crime Against Society,3
+OLD COLUMBIA PIKE,Crime Against Person,2
+OLD COLUMBIA PIKE,Crime Against Property,7
+OLD COLUMBIA PIKE,Crime Against Society,2
+OLD GEORGETOWN RD,Crime Against Person,1
+OLD GEORGETOWN RD,Crime Against Property,14
+OLDE TOWNE AVE,Crime Against Property,1
+OMEGA DR,Crime Against Property,1
+OREBAUGH AVE,Crime Against Property,7
+OREBAUGH AVE,Crime Against Society,2
+OVERLOOK DR,Crime Against Property,2
+OXBRIDGE DR,Crime Against Property,2
+PALMIRA LA,Crime Against Property,1
+PALMIRA LA,Crime Against Society,2
+PARAMOUNT DR,Crime Against Person,2
+PARAMOUNT DR,Crime Against Property,7
+PARAMOUNT DR,Crime Against Society,2
+PARK RD,Crime Against Property,3
+PARKER FARM WAY,Crime Against Property,1
+PARKLAND DR,Crime Against Person,2
+PARKLAND DR,Crime Against Property,6
+PARKLAND DR,Crime Against Society,3
+PARKLAWN DR,Crime Against Person,1
+PARKLAWN DR,Crime Against Property,21
+PARKLAWN DR,Crime Against Society,2
+PARKVALE RD,Crime Against Property,5
+PARTRIDGE WOOD DR,Crime Against Person,1
+PARTRIDGE WOOD DR,Crime Against Property,3
+PARTRIDGE WOOD DR,Crime Against Society,3
+PENDLETON DR,Crime Against Property,2
+PENDLETON DR,Crime Against Society,1
+PERRY PKWY,Crime Against Person,10
+PERRY PKWY,Crime Against Property,81
+PERRY PKWY,Crime Against Society,31
+PHILADELPHIA AVE,Crime Against Property,20
+PHILADELPHIA AVE,Crime Against Society,2
+PICKERING PL,Crime Against Property,2
+PINEY BRANCH RD,Crime Against Person,23
+PINEY BRANCH RD,Crime Against Property,91
+PINEY BRANCH RD,Crime Against Society,9
+PLEASANT DR,Crime Against Property,1
+PLEASANT DR,Crime Against Society,2
+PLUM ORCHARD DR,Crime Against Person,7
+PLUM ORCHARD DR,Crime Against Property,113
+PLUM ORCHARD DR,Crime Against Society,2
+PLUMMER DR,Crime Against Property,1
+PLUMMER DR,Crime Against Society,3
+PORTER RD,Crime Against Property,1
+POWDER MILL RD,Crime Against Person,1
+POWDER MILL RD,Crime Against Property,5
+PREAKNESS DR,Crime Against Person,2
+PRELUDE DR,Crime Against Property,3
+PRELUDE DR,Crime Against Society,1
+PRICE AVE,Crime Against Person,2
+PRICE AVE,Crime Against Property,9
+PRICE AVE,Crime Against Society,4
+PRICHARD RD,Crime Against Property,2
+PRINCE GEORGES AVE,Crime Against Property,8
+PRINCE GEORGES AVE,Crime Against Society,1
+PROFESSIONAL DR,Crime Against Property,2
+PROFESSIONAL DR,Crime Against Society,3
+QUEBEC ST,Crime Against Person,3
+QUEBEC ST,Crime Against Property,5
+QUEBEC ST,Crime Against Society,2
+QUEENSGUARD RD,Crime Against Society,2
+QUINCE ORCHARD BLVD,Crime Against Person,11
+QUINCE ORCHARD BLVD,Crime Against Property,25
+QUINCE ORCHARD BLVD,Crime Against Society,15
+QUINCE ORCHARD RD,Crime Against Person,1
+QUINCE ORCHARD RD,Crime Against Property,2
+QUINCE ORCHARD RD,Crime Against Society,22
+RAILROAD ST,Crime Against Society,2
+RAMP 2 FR IS 495 WB TO MD 650 NB,Crime Against Society,1
+RAMP 4 FR MD 355 NB TO IS 495 EB,Crime Against Person,1
+RAMP 4 FR MD 355 NB TO IS 495 EB,Crime Against Property,1
+RAMP 5 FR MD 97 SB TO IS 495 EB,Crime Against Person,1
+RAMP 5 FR MD 97 SB TO IS 495 EB,Crime Against Society,3
+RAMP 6 FR MD 117 EB TO IS 270 SB,Crime Against Property,2
+RAMP 6 FR MD 198 EB TO US 29 SB,Crime Against Property,10
+RAMP 6 FR MD 198 EB TO US 29 SB,Crime Against Society,3
+RAMP 7 FR MD 117 WB TO RAMP 6 (TO IS270),Crime Against Property,2
+RANDOLPH RD,Crime Against Person,8
+RANDOLPH RD,Crime Against Property,8
+RANDOLPH RD,Crime Against Society,12
+REDLAND BLVD,Crime Against Person,26
+REDLAND BLVD,Crime Against Property,165
+REDLAND BLVD,Crime Against Society,5
+REDLAND RD,Crime Against Person,5
+REDLAND RD,Crime Against Property,41
+REDLAND RD,Crime Against Society,5
+REDLAND RD (AHEAD),Crime Against Person,1
+REDLAND RD (AHEAD),Crime Against Property,13
+REDLAND RD (AHEAD),Crime Against Society,1
+RESEARCH BLVD,Crime Against Person,9
+RESEARCH BLVD,Crime Against Property,37
+RESEARCH BLVD,Crime Against Society,8
+RESEARCH CT,Crime Against Society,1
+RESERVE CHAMPION DR,Crime Against Property,2
+RIDGE RD,Crime Against Person,2
+RIDGE RD,Crime Against Property,3
+RIDGE RD,Crime Against Society,3
+RIDGEMONT AVE,Crime Against Person,1
+RIDGEMONT AVE,Crime Against Property,11
+RIPPLING BROOK DR,Crime Against Person,4
+RIPPLING BROOK DR,Crime Against Property,2
+RIPPLING BROOK DR,Crime Against Society,1
+RIVER RD,Crime Against Property,1
+ROAD END,Crime Against Property,1
+ROAD END,Crime Against Society,1
+ROCKLEDGE BLVD,Crime Against Property,4
+ROCKLEDGE BLVD,Crime Against Society,1
+ROCKLEDGE DR,Crime Against Person,1
+ROCKLEDGE DR,Crime Against Property,4
+ROCKLEDGE DR,Crime Against Society,1
+ROCKVILLE PIKE,Crime Against Person,1
+ROCKVILLE PIKE,Crime Against Property,4
+ROCKVILLE PIKE,Crime Against Society,1
+ROCKY RIDGE LA,Crime Against Person,1
+RODNEY RD,Crime Against Person,2
+ROLLINS AVE,Crime Against Person,6
+ROLLINS AVE,Crime Against Property,34
+ROLLINS AVE,Crime Against Society,3
+ROSEDALE AVE,Crime Against Person,3
+ROSEDALE AVE,Crime Against Property,18
+ROSEDALE AVE,Crime Against Society,3
+ROSEWOOD MANOR LA,Crime Against Property,6
+ROSEWOOD MANOR LA,Crime Against Society,1
+ROTHGEB DR,Crime Against Person,1
+ROTHGEB DR,Crime Against Society,1
+ROUND HILL RD,Crime Against Person,2
+ROUNDABOUT,Crime Against Person,5
+ROUNDABOUT,Crime Against Property,96
+RUSSELL AVE,Crime Against Person,16
+RUSSELL AVE,Crime Against Property,48
+RUSSELL AVE,Crime Against Society,133
+RUTGERS ST,Crime Against Not a Crime,1
+RUTGERS ST,Crime Against Property,13
+RUTGERS ST,Crime Against Society,5
+RYLAND DR,Crime Against Society,1
+S MANOR CIR,Crime Against Property,3
+S PARK AVE,Crime Against Person,5
+S PARK AVE,Crime Against Property,42
+S PARK AVE,Crime Against Society,1
+S WASHINGTON ST,Crime Against Property,1
+S WESTLAND DR,Crime Against Property,2
+SANDY SPRING RD,Crime Against Property,1
+SAUL RD,Crime Against Property,1
+SAUNDERS LA,Crime Against Society,1
+SCENERY DR,Crime Against Person,22
+SCENERY DR,Crime Against Property,20
+SCENERY DR,Crime Against Society,57
+SCHUYLER RD,Crime Against Not a Crime,1
+SCHUYLER RD,Crime Against Property,3
+SECOND AVE,Crime Against Property,1
+SELFRIDGE RD,Crime Against Person,5
+SELFRIDGE RD,Crime Against Property,13
+SELFRIDGE RD,Crime Against Society,1
+SELKIRK DR,Crime Against Property,4
+SELLMAN RD,Crime Against Property,1
+SEMINARY RD,Crime Against Property,18
+SERPENTINE WAY,Crime Against Property,1
+SEVEN LOCKS RD,Crime Against Person,4
+SEVEN LOCKS RD,Crime Against Property,9
+SEVEN LOCKS RD,Crime Against Society,30
+SEVERN RD,Crime Against Person,1
+SEVERN RD,Crime Against Society,6
+SHADY GROVE RD,Crime Against Person,1
+SHADY GROVE RD,Crime Against Property,5
+SHADY GROVE RD,Crime Against Society,1
+SHAKESPEARE BLVD,Crime Against Person,51
+SHAKESPEARE BLVD,Crime Against Property,1866
+SHAKESPEARE BLVD,Crime Against Society,117
+SHEARWATER PL,Crime Against Person,17
+SHEARWATER PL,Crime Against Property,5
+SHEARWATER PL,Crime Against Society,19
+SHEPHERD ST,Crime Against Property,2
+SHOREFIELD RD,Crime Against Person,4
+SHOREFIELD RD,Crime Against Property,8
+SHOREFIELD RD,Crime Against Society,8
+SLIGO AVE,Crime Against Person,10
+SLIGO AVE,Crime Against Property,78
+SLIGO AVE,Crime Against Society,24
+SNOUFFERS SCHOOL RD,Crime Against Person,4
+SNOUFFERS SCHOOL RD,Crime Against Property,4
+SOAPSTONE LA,Crime Against Property,2
+SOMERSET TERRACE,Crime Against Property,1
+SONOMA RD,Crime Against Property,1
+SOUTH DR,Crime Against Property,1
+SOUTHLAWN LA,Crime Against Property,1
+SOUTHLAWN LA,Crime Against Society,1
+SOUTHWOOD AVE,Crime Against Property,4
+SOUTHWOOD DR,Crime Against Property,1
+SPARTAN RD,Crime Against Property,2
+SPRING ST,Crime Against Person,13
+SPRING ST,Crime Against Property,60
+SPRING ST,Crime Against Society,34
+SPUR HILL DR,Crime Against Property,4
+SPUR HILL DR,Crime Against Society,1
+SPUR TO MONTGOMERY VILLAGE AVE,Crime Against Person,3
+SPUR TO MONTGOMERY VILLAGE AVE,Crime Against Property,5
+SPUR TO MONTGOMERY VILLAGE AVE,Crime Against Society,26
+SPUR TO ODENDHAL AVE,Crime Against Property,9
+SPUR TO RAMP 6 FR MD 198 EB TO US 29 SB,Crime Against Property,10
+SPUR TO RAMP 6 FR MD 198 EB TO US 29 SB,Crime Against Society,3
+STEDWICK RD,Crime Against Person,17
+STEDWICK RD,Crime Against Property,30
+STEDWICK RD,Crime Against Society,8
+STEWART AVE,Crime Against Property,1
+STEWART LA,Crime Against Property,2
+STONEGATE DR,Crime Against Property,6
+STRINGTOWN RD,Crime Against Property,4
+STRINGTOWN RD,Crime Against Society,2
+SULLNICK WAY,Crime Against Property,1
+SUMMIT HALL RD,Crime Against Person,1
+SUMMIT HALL RD,Crime Against Property,8
+SUNDALE DR,Crime Against Property,4
+SUTHERLAND RD,Crime Against Person,2
+SUTHERLAND RD,Crime Against Property,8
+SYCAMORE LA,Crime Against Property,1
+SYCAMORE LA,Crime Against Society,1
+TALBOTT ST,Crime Against Person,2
+TALBOTT ST,Crime Against Property,6
+TAYLOR ST,Crime Against Property,1
+TEMPLETON PL,Crime Against Property,3
+TENBROOK DR,Crime Against Property,1
+THAYER AVE,Crime Against Person,23
+THAYER AVE,Crime Against Property,324
+THAYER AVE,Crime Against Society,23
+THE HILLS PLAZA,Crime Against Property,1
+TILDEN LA,Crime Against Person,6
+TILDEN LA,Crime Against Property,54
+TILDEN LA,Crime Against Society,2
+TOWN CENTER DR,Crime Against Property,1
+TOWN COMMONS BLVD,Crime Against Property,2
+TRIANGLE LA,Crime Against Person,1
+TRIANGLE LA,Crime Against Property,2
+TRIANGLE LA,Crime Against Society,4
+TUCKERMAN LA,Crime Against Person,1
+TUCKERMAN LA,Crime Against Property,39
+TWIG RD,Crime Against Not a Crime,1
+TWIG RD,Crime Against Person,1
+TWIG RD,Crime Against Property,1
+TWIG RD,Crime Against Society,1
+TWINBROOK PKWY,Crime Against Person,5
+TWINBROOK PKWY,Crime Against Property,60
+TWINBROOK PKWY,Crime Against Society,4
+UNIVERSITY BLVD E,Crime Against Person,19
+UNIVERSITY BLVD E,Crime Against Property,123
+UNIVERSITY BLVD E,Crime Against Society,26
+UNIVERSITY BLVD W,Crime Against Person,11
+UNIVERSITY BLVD W,Crime Against Property,166
+UNIVERSITY BLVD W,Crime Against Society,27
+VALLEY BEND DR,Crime Against Property,2
+VEIRS MILL RD,Crime Against Property,2
+VEITCH LA,Crime Against Property,1
+VENICE DR,Crime Against Property,2
+W BEXHILL DR,Crime Against Person,1
+W DIAMOND AVE,Crime Against Person,9
+W DIAMOND AVE,Crime Against Property,97
+W DIAMOND AVE,Crime Against Society,16
+W EDMONSTON DR,Crime Against Not a Crime,1
+W EDMONSTON DR,Crime Against Person,5
+W EDMONSTON DR,Crime Against Property,47
+W EDMONSTON DR,Crime Against Society,6
+W GUDE DR,Crime Against Property,3
+W MONTGOMERY AVE,Crime Against Property,4
+W WATKINS MILL RD,Crime Against Society,1
+WALHONDING RD,Crime Against Property,1
+WALKER AVE,Crime Against Property,4
+WALKERS CHOICE RD,Crime Against Property,1
+WALKERS CHOICE RD,Crime Against Society,1
+WALTER JOHNSON RD,Crime Against Property,7
+WARFIELD RD,Crime Against Property,1
+WARING STATION RD,Crime Against Person,1
+WARING STATION RD,Crime Against Property,5
+WARING STATION RD,Crime Against Society,8
+WASHINGTON GROVE LA,Crime Against Property,1
+WASHINGTONIAN BLVD,Crime Against Person,2
+WASHINGTONIAN BLVD,Crime Against Property,8
+WATERS LANDING DR,Crime Against Person,1
+WATERS LANDING DR,Crime Against Property,2
+WATKINS MILL RD,Crime Against Person,7
+WATKINS MILL RD,Crime Against Property,47
+WATKINS MILL RD,Crime Against Society,29
+WAYNE AVE,Crime Against Person,26
+WAYNE AVE,Crime Against Property,170
+WAYNE AVE,Crime Against Society,24
+WESLEY CT,Crime Against Property,1
+WESSEX RD,Crime Against Property,2
+WESTLAKE DR,Crime Against Property,11
+WHETSTONE DR,Crime Against Person,13
+WHETSTONE DR,Crime Against Property,40
+WHETSTONE DR,Crime Against Society,6
+WHITTIER BLVD,Crime Against Person,1
+WIGHTMAN RD,Crime Against Property,1
+WIGHTMAN RD,Crime Against Society,3
+WILKINS AVE,Crime Against Property,3
+WILLARD AVE,Crime Against Person,2
+WILLARD AVE,Crime Against Property,10
+WILLARD AVE,Crime Against Society,1
+WILSON DR,Crime Against Property,1
+WILSON LA,Crime Against Person,3
+WILSON LA,Crime Against Property,1
+WILSON LA,Crime Against Society,3
+WINDHAM LA,Crime Against Person,8
+WINDHAM LA,Crime Against Property,13
+WINDHAM LA,Crime Against Society,1
+WINTERSET DR,Crime Against Property,2
+WISCONSIN AVE,Crime Against Property,2
+WOLF DR,Crime Against Person,2
+WOLF DR,Crime Against Property,48
+WOLF DR,Crime Against Society,3
+WOODFIELD RD,Crime Against Person,3
+WOODFIELD RD,Crime Against Property,7
+WOODFIELD RD,Crime Against Society,3
+WOODLAND AVE,Crime Against Property,1
+WOODMONT AVE,Crime Against Property,1
+WOODSIDE PKWY,Crime Against Person,2
+WOOTTON PKWY,Crime Against Person,1
+WOOTTON PKWY,Crime Against Property,2
+YALE PL,Crime Against Person,5
+YALE PL,Crime Against Property,8
+YALE PL,Crime Against Society,2
+YELLOWSTONE WAY,Crime Against Person,2
+ZION RD,Crime Against Property,1
