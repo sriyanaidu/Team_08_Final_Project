@@ -2,8 +2,11 @@
 INST 767: Big Data Infrastructure  
 Professor: Zach Drake
 
-## Team Members
-Aryaman Paigankar 
+Team Number - 08
+
+# Team Members
+
+Aryaman Paigankar - aryamanp@umd.edu
 
 Goutham Patchipulusu - gouthamp@umd.edu
 
