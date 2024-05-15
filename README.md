@@ -32,14 +32,19 @@ Expected outcomes include improved awareness of local crimes, understanding of t
 
 The following business questions guided our SQL queries and visualizations. We focused on questions that would have some real-world applications by improving the presence of police, showcasing correlations between events, and breaking down previous crime to predict future crime.
 
+
 1. Are there correlations between crimes, crashes, and traffic violations in the places they occur? If so, what is the strength of the correlation?
-   The crashes and crimes happening in a area have a good correlation of 71.34% and then the traffic violations and the crashes have a correaltion of 61.47% and finally the violations and crimes have a 51% correlation.
+   1. The crashes and crimes happening in a area have a good correlation of 71.34% and then the traffic violations and the crashes have a correaltion of 61.47% and finally the violations and crimes have a 51% correlation.
 2. What is the connection between crimes, crashes, and weather?
-   Most number of crashes occur on clear days, followed by rainy days and then cloudy days. 
-3. What types of crimes have previously occured on each street?
-4. What are the common causes of traffic crashes, and how do they vary by light conditions and intersection types? Answered in the analysis
-5. What are the most common types of crimes committed in different areas, and how are they distributed geographically? Answered in the analysis
-6. How do traffic violation trends change over time, and what might be influencing these trends? Answered in the analysis
+   1. Most number of crashes occur on clear days, followed by rainy days and then cloudy days. 
+3. Historically, what types of crimes and crashes have previously occured on each street?
+   1. If we take a look at the latitude_longitude.sql query, the API data from crashes and crime is joined into one table and then filtered out by year (only 2023), and then grouped by street name and crime name. We can see that some streets list 'Crime Against Person', 'Crime Against Property', and 'Crime Against Society' while others list only one or two of these types of crimes. For futher analysis, a visualization could be created from this query, including some geospatial analysis by using the latitude and longitude.
+4. What are the common causes of traffic crashes, and how do they vary by light conditions and intersection types?
+   1. Answered in the analysis
+5. What are the most common types of crimes committed in different areas, and how are they distributed geographically?
+   1. Answered in the analysis
+6. How do traffic violation trends change over time, and what might be influencing these trends?
+   1. Answered in the analysis
 
 ## Project Description
 Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. 
