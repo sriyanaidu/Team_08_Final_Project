@@ -134,9 +134,19 @@ For our storage solution, we opted to utilize BigQuery for its capabilities and 
 
 In this project, we leveraged Looker Studio to analyze and visualize data across three key schemas: Crashes, Crimes, and traffic violations dataset, to derive actionable insights from complex information. Through a series of meaningful visualizations, such as trend analyses over time, geographical heatmaps, and distribution charts, we aim to illuminate patterns and trends that inform strategic decision-making. The dashboards created in Looker Studio not only highlight critical data points but also facilitate a deeper understanding of the underlying dynamics within each dataset.
 
+
+-**Crimes Dashboard**
+The Crimes dashboard delves into the rate and distribution of crimes over time and across categories, utilizing a heat map to visualize geographical crime hotspots and identify regions requiring heightened security measures. Detailed pie charts and bar graphs break down crime types and locations, offering stakeholders a clear view of predominant crime patterns and enabling more effective community policing and resource allocation strategies.
+
 <img width="960" alt="Screenshot 2024-05-15 010247" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/0f64fe42-4fdd-4aaa-83ce-3c2627ac5d3b">
 
+-**Crashes Dashboard**
+This dashboard explores traffic crashes, with visualizations that track crash occurrences over time and analyze them by light conditions, collision types, and intersection configurations. It provides critical insights into the conditions under which most crashes occur, such as time of day or specific traffic setups, aiding in the design of safer roads and more informed urban planning. The hit-and-run analysis further highlights the urgency of addressing driver accountability and enhancing surveillance measures.
+
 <img width="960" alt="Screenshot 2024-05-15 010321" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/c1f30f43-1aef-4704-8285-10adf1cb036b">
+
+-**Traffic Violations Dashboard**
+This dashboard presents a comprehensive analysis of traffic violations, categorized by gender, race, and case type to identify demographic patterns. A trend analysis chart provides insights into the fluctuation of violations over time, pinpointing potential seasonal or enforcement-related trends. Additionally, a geographic breakdown by city offers a detailed view of where most violations occur, assisting in targeted traffic enforcement and policy-making.
 
 <img width="961" alt="Screenshot 2024-05-15 010342" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/04bdd7f8-fc12-494b-9cf2-5af9e00cb926">
 
