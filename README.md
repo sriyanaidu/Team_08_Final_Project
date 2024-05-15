@@ -98,7 +98,7 @@ The Cloud Scheduler is a cron job service that is implemented to automate data u
 
 ## Transform
 
-We stored the Spark jobs code in our Cloud Storage bucket called `pyspark_bucket_inst767`. Each PySpark file transforms the data stored in the Cloud Storage buckets and then pushes them to the Big Query tables.
+We stored the Spark jobs code in our Cloud Storage bucket called `pyspark_bucket_inst767`. Each PySpark file transforms the data stored in the Cloud Storage buckets and then pushes them to the BigQuery tables.
 
 Its layout looks like this: 
 
@@ -123,13 +123,13 @@ Each Pyspark file performs the following processes on our datasets:
   - The write operation for each dataset was performed using the `write` method of the DataFrame, specifying the respective BigQuery table names (`traffic_violations`, `crashes`, `crimes`) and the temporary GCS bucket for data transfer.
   - The mode was set to "overwrite" to replace any existing data in the destination tables. This ensures that the BigQuery tables are updated with the latest cleaned data, maintaining data consistency and accuracy for subsequent analysis. Additionally, duplicate records are automatically removed during the overwrite process, preventing redundant data in the tables.
 
-<img width="1439" alt="big query tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
+<img width="1439" alt="BigQuery tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
 
-Additionally, workflows have been created using the Dataproc through which a temporary cluster and a job is created to process the data and push to the final Big Query tables. The workflows are set to run everyday with the help of Cloud Scheduler. Each Cloud Scheduler is set to trigger everyday at a particular time period:
+Additionally, workflows have been created using the Dataproc through which a temporary cluster and a job is created to process the data and push to the final BigQuery tables. The workflows are set to run everyday with the help of Cloud Scheduler. Each Cloud Scheduler is set to trigger everyday at a particular time period:
 
-- traffic data workflow : Everyday 10am EDT
-- crimes data workflow : Everyday at 11am EDT
-- crashes data workflow : Everyday 12:30pm EDT)
+- Traffic data workflow : Everyday 10am EDT
+- Crimes data workflow : Everyday at 11am EDT
+- Crashes data workflow : Everyday 12:30pm EDT
 
 **Workflows**
 <img width="1416" alt="Screenshot 2024-05-15 at 2 45 30 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/98a15f06-a9c0-4e64-917b-2f19f74ba1fa">
@@ -151,7 +151,7 @@ For our storage solution, we opted to utilize BigQuery for its capabilities and 
 
 ## Analysis
 
-In this project, we leveraged Looker Studio to analyze and visualize data across three key schemas: Crashes, Crimes, and traffic violations dataset, to derive actionable insights from complex information. Through a series of meaningful visualizations, such as trend analyses over time, geographical heatmaps, and distribution charts, we aim to illuminate patterns and trends that inform strategic decision-making. The dashboards created in Looker Studio not only highlight critical data points but also facilitate a deeper understanding of the underlying dynamics within each dataset.
+In this project, we leveraged Looker Studio to analyze and visualize data across three key schemas: crashes, crimes, and traffic violations dataset, to derive actionable insights from complex information. Through a series of meaningful visualizations, such as trend analyses over time, geographical heatmaps, and distribution charts, we aim to illuminate patterns and trends that inform strategic decision-making. The dashboards created in Looker Studio not only highlights critical data points but also facilitates a deeper understanding of the underlying dynamics within each dataset.
 
 **Crimes Dashboard**
 
@@ -174,4 +174,4 @@ This dashboard presents a comprehensive analysis of traffic violations, categori
 
 <img width="961" alt="Screenshot 2024-05-15 010342" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/04bdd7f8-fc12-494b-9cf2-5af9e00cb926">
 
-Link to the looker studio visualization report- https://lookerstudio.google.com/s/tY_R4xYcsF8
+[View the Looker Studio visualization report](https://lookerstudio.google.com/s/tY_R4xYcsF8)
