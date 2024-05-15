@@ -34,6 +34,7 @@ The following business questions guided our SQL queries and visualizations. We f
 
 1. Are there correlations between crimes, crashes, and traffic violations in the places they occur? If so, what is the strength of the correlation?
 2. What is the connection between crimes, crashes, and weather?
+   Most number of crashes occur on clear days, followed by rainy days and then cloudy days. 
 3. What types of crimes have previously occured on each street?
 4. What are the common causes of traffic crashes, and how do they vary by light conditions and intersection types?
 5. What are the most common types of crimes committed in different areas, and how are they distributed geographically?
