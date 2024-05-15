@@ -110,6 +110,14 @@ Each Pyspark file performs the following processes on our datasets:
 
 <img width="1439" alt="big query tables" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/a6e45a08-d4c5-4d06-a560-8b1e2f371922">
 
+Additionally, workflows have been created using the Dataproc through which a temporary cluster and a job is created to process the data and push to the final big query tables. The workflows are set to run everyday with the help of cloud scheduler. Each cloud scheduler is set to trigger everyday at a particular time period (traffic data workflow : Everyday 10am EDT, crimes data workflow : Everyday at 11am EDT, crashes data workflow : Everyday 12:30pm EDT)
+
+**Workflows**
+<img width="1416" alt="Screenshot 2024-05-15 at 2 45 30 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/98a15f06-a9c0-4e64-917b-2f19f74ba1fa">
+
+**Jobs**
+<img width="1416" alt="Screenshot 2024-05-15 at 2 50 15 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/b1ba5f58-682c-4b83-8554-277a8fd8320d">
+
 ## Storage
 For our storage solution, we opted to utilize BigQuery for its capabilities and compatibility with our project requirements. In addition to storing our data in BigQuery, we structured the storage by creating a database called Montgomery Datasets and in that we created separate tables for each API: crashes, crimes, and traffic violations
 
