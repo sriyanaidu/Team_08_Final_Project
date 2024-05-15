@@ -45,6 +45,10 @@ The following business questions guided our SQL queries and visualizations. We f
    1. Answered in the analysis
 6. How do traffic violation trends change over time, and what might be influencing these trends?
    1. Answered in the analysis
+7. Which traffic violations occur the most frequently in Montgomery County?
+   1. The most frequent violation is failure by drivers to obey traffic control device instructions with a violation count of 1950.
+8. Which make and model of car is involved in the most amount of crashes?
+   1. Honda Civic is involved in the most amount of crashes with a crash count of 763.
 
 ## Project Description
 Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. 
