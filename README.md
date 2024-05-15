@@ -130,6 +130,14 @@ For our storage solution, we opted to utilize BigQuery for its capabilities and 
 **Traffic_Violations Dataset**
 <img width="1118" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/8ee2d1bb-05bd-4593-af94-525f82ea51a0">
 
-## Analysis
+##**Analysis**
+In this project, we leveraged Looker Studio to analyze and visualize data across three key schemas: Crashes, Crimes, and traffic violations dataset, to derive actionable insights from complex information. Through a series of meaningful visualizations, such as trend analyses over time, geographical heatmaps, and distribution charts, we aim to illuminate patterns and trends that inform strategic decision-making. The dashboards created in Looker Studio not only highlight critical data points but also facilitate a deeper understanding of the underlying dynamics within each dataset.
+
+<img width="960" alt="Screenshot 2024-05-15 010247" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/0f64fe42-4fdd-4aaa-83ce-3c2627ac5d3b">
+
+<img width="960" alt="Screenshot 2024-05-15 010321" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/c1f30f43-1aef-4704-8285-10adf1cb036b">
+
+<img width="961" alt="Screenshot 2024-05-15 010342" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/63516410/04bdd7f8-fc12-494b-9cf2-5af9e00cb926">
+
 
 **Business Questions**
