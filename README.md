@@ -33,6 +33,7 @@ Expected outcomes include improved awareness of local crimes, understanding of t
 The following business questions guided our SQL queries and visualizations. We focused on questions that would have some real-world applications by improving the presence of police, showcasing correlations between events, and breaking down previous crime to predict future crime.
 
 1. Are there correlations between crimes, crashes, and traffic violations in the places they occur? If so, what is the strength of the correlation?
+   The crashes and crimes happening in a area have a good correlation of 71.34% and then the traffic violations and the crashes have a correaltion of 61.47% and finally the violations and crimes have a 51% correlation.
 2. What is the connection between crimes, crashes, and weather?
    Most number of crashes occur on clear days, followed by rainy days and then cloudy days. 
 3. What types of crimes have previously occured on each street?
