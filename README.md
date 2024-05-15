@@ -223,41 +223,40 @@ For our storage solution, we opted to utilize BigQuery for its capabilities and 
 
 ### Traffic Violations Dataset Schema
 
-| Name                     | Type       | Mode     |
-|--------------------------|------------|----------|
-| accident                 | STRING     | NULLABLE |
-| alcohol                  | STRING     | NULLABLE |
-| arrest_type              | STRING     | NULLABLE |
-| article                  | STRING     | NULLABLE |
-| belts                    | STRING     | NULLABLE |
-| charge                   | STRING     | NULLABLE |
-| color                    | STRING     | NULLABLE |
-| commercial_license       | STRING     | NULLABLE |
-| commercial_vehicle       | STRING     | NULLABLE |
-| contributed_to_accident  | STRING     | NULLABLE |
-| date_of_stop             | TIMESTAMP  | NULLABLE |
-| description              | STRING     | NULLABLE |
-| dl_state                 | STRING     | NULLABLE |
-| driver_city              | STRING     | NULLABLE |
-| driver_state             | STRING     | NULLABLE |
-| fatal                    | STRING     | NULLABLE |
-| gender                   | STRING     | NULLABLE |
-| latitude                 | FLOAT      | NULLABLE |
-| location                 | STRING     | NULLABLE |
-| longitude                | FLOAT      | NULLABLE |
-| make                     | STRING     | NULLABLE |
-| model                    | STRING     | NULLABLE |
-| personal_injury          | STRING     | NULLABLE |
-| property_damage          | STRING     | NULLABLE |
-| race                     | STRING     | NULLABLE |
-| state                    | STRING     | NULLABLE |
-| subagency                | STRING     | NULLABLE |
-| time_of_stop             | TIME       | NULLABLE |
-| vehicle_type             | STRING     | NULLABLE |
-| violation_type           | STRING     | NULLABLE |
-| work_zone                | STRING     | NULLABLE |
-| year                     | INTEGER    | NULLABLE |
-
+| Name                     | Type       |
+|--------------------------|------------|
+| accident                 | STRING     |
+| alcohol                  | STRING     |
+| arrest_type              | STRING     |
+| article                  | STRING     |
+| belts                    | STRING     |
+| charge                   | STRING     |
+| color                    | STRING     |
+| commercial_license       | STRING     |
+| commercial_vehicle       | STRING     |
+| contributed_to_accident  | STRING     |
+| date_of_stop             | TIMESTAMP  |
+| description              | STRING     |
+| dl_state                 | STRING     |
+| driver_city              | STRING     |
+| driver_state             | STRING     |
+| fatal                    | STRING     |
+| gender                   | STRING     |
+| latitude                 | FLOAT      |
+| location                 | STRING     |
+| longitude                | FLOAT      |
+| make                     | STRING     |
+| model                    | STRING     |
+| personal_injury          | STRING     |
+| property_damage          | STRING     |
+| race                     | STRING     |
+| state                    | STRING     |
+| subagency                | STRING     |
+| time_of_stop             | TIME       |
+| vehicle_type             | STRING     |
+| violation_type           | STRING     |
+| work_zone                | STRING     |
+| year                     | INTEGER    |
 
 **Crashes Dataset**
 <img width="1106" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/67585d3a-ef3d-49fc-9848-47e617802702">
