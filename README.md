@@ -64,27 +64,33 @@ Limitations of the data: any information that can be used to uniquely identify t
 Updated: Daily
 
 ### Cloud Functions
-<img width="1120" alt="image" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
+<img width="1416" alt="Cloud Functions" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/d81dfc1f-6e63-42bf-b03f-be084548ae7d">
 
 The python based cloud functions have been developed to facilitate the execution of APIs for data collection via the Google Cloud Platform. These codes utilize the login credentials and the API token to access the API and collect the data. Following data collection, the cloud fucntions transfers the gathered data into the corresponding storage buckets before further process takes place.
 
 ### Storage Buckets
-<img width="1416" alt="Screenshot 2024-05-15 at 1 18 10 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/b34cc178-5635-4f11-992e-b6e01d974701">
+<img width="1416" alt="Storgae Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/b34cc178-5635-4f11-992e-b6e01d974701">
 
-In Google Cloud Platform, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd," "crime_bucket_api," and "inst767trafficviolationsbucket," respectively, were designed to organize and store the data collected from the corresponding APIs. Moreover, we implemented a scheduler to automate data updates everyday at 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
+In Google Cloud Platform, we implemented a data management system by creating separate buckets for each data source: crashes, crime, and traffic violations. These buckets, named "crashesumd", "crime_bucket_api", and "inst767trafficviolationsbucket" respectively, were designed to organize and store the data collected from the corresponding APIs.
+
+The layout for each bucket looks similar to this:
+
+<img width="1416" alt="Screenshot 2024-05-15 at 1 44 06 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/8778e175-b3b1-4fbb-a54f-3456029cc9c2">
 
 ### Cloud Scheduler
-<img width="1416" alt="Screenshot 2024-05-15 at 1 25 36 AM" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/2a7c3541-9aff-4709-96b7-fe63e5bf3aca">
+<img width="1416" alt="Cloud Scheduler" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/147477465/630825c5-8bca-4983-a9fe-e6be70f20a7f">
 
-The Cloud Scheduler is a cron job service which is used to run the cloud functions everyday at 9am EDT (0 9 * * *). The data is stored in their respective buckets as mentioned earlier.
+The Cloud Scheduler is a cron job service is implemented to automate data updates everyday at 9 AM EDT, ensuring that each time the scheduler runs for each API call, the relevant folder within the respective bucket is automatically updated with the latest data.
 
 ## Transform
 
-We stored the Spark jobs code in our code storage bucket called `pyspark_bucket_inst767`. Its layout looks like this: 
+We stored the Spark jobs code in our code storage bucket called `pyspark_bucket_inst767`. In summary, each Pyspark file is written to transform the data which we have stored in the storage buckets and then push them to the big query tables.
 
-<img width="1436" alt="Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/68014c35-c8be-4185-83e0-24269677e14b">
+Its layout looks like this: 
 
+<img width="1416" alt="Buckets" src="https://github.com/sriyanaidu/Team_08_Final_Project/assets/160181412/68014c35-c8be-4185-83e0-24269677e14b">
 
+Each Pyspark file performs the following processes on our datasets:
 - **Data Cleaning**:
   - Removed specified columns that are not relevant to the analysis, such as computed regions, agency-related information, geolocation data, etc.
   - Cleaned inconsistent values in certain columns by replacing "unknown" values with null and "N/A" values with empty strings.
