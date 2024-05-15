@@ -29,7 +29,9 @@ Key goals include identifying high-traffic violation areas, understanding the cr
 Expected outcomes include improved awareness and understanding of traffic safety issues, enhanced educational programs, and more informed decision-making by stakeholders. By educating itself about traffic violations and their underlying causes, the county can take proactive measures to address safety concerns and promote safer road behavior.
 
 ## Project Description
-Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. See DAG below: 
+Using open source data sources from Montgomery County, we pulled information from three APIs: crimes, crashes, and traffic violations. Then we transformed the data from the three APIs to perform analysis for our business questions. 
+
+See DAG below: 
 
 ![Data_Architecture](https://github.com/sriyanaidu/Team_08_Final_Project/assets/160145247/5e756fb0-3f0f-4d43-87bd-695d67992985)
 
